@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="App Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/lifecycle/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/DI/setterwired/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/CreateBean/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/DI/constructor/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/Scope/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/DI/xml_autowired/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/IoC/App.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/Setting/IoC.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/Test/TestTest-context.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>

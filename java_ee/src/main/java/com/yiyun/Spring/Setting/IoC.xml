@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--告诉 Spring 容器帮我配置什么-->
+    <bean id="test" class="com.yiyun.Spring.Setting.HelloWord">
+        <!--注入数据找 set 方法-->
+        <property name="hostname" value="Michael"></property>
+    </bean>
+</beans>

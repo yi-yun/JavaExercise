@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--constructor-->
+   <bean id="cat1" class="com.yiyun.Spring.CreateBean._01constructor.Cat1"/>
+    <!--static-->
+   <bean id="cat2" class="com.yiyun.Spring.CreateBean._02staticfac.Cat2Factory" factory-method="createInstance"/>
+    <!--IntanceFac-->
+    <bean id="cat3Fac" class="com.yiyun.Spring.CreateBean._03instancefac.Cat3Factory"/>
+    <bean id="cat3" factory-bean="cat3Fac" factory-method="createInstance"/>
+    <!--Factory Instance 实例工厂的变种-->
+    <bean id="cat4" class="com.yiyun.Spring.CreateBean._04factorybean.Cat4Factory">
+        <property name="honstanme" value="nihao"/>
+    </bean>
+</beans>
