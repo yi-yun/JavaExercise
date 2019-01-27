@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="design" />
+        <module name="effective" />
         <module name="effective_java" />
         <module name="java_ee" />
         <module name="java_se" />
         <module name="java_test" />
         <module name="JavaExercise" />
+        <module name="se" />
+        <module name="springee" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
   </component>
