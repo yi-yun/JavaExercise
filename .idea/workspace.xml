@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13b01950-71fb-4c7a-a98f-c28117f6978b" name="Default Changelist" comment="">
+    <list default="true" id="13b01950-71fb-4c7a-a98f-c28117f6978b" name="Default Changelist" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_test/target/classes/com/yiyun/TestSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/effective_java/target/" />
@@ -19,7 +19,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,12 +52,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -57,12 +62,16 @@
     <option name="width" value="1346" />
     <option name="height" value="706" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,17 +79,27 @@
               <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="java_se" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="java_se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548648152715" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548768401089" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -99,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Demo.fun1">
     <configuration name="TestSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yiyun.TestSet" />
       <module name="test" />
@@ -113,8 +132,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo.fun1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiyun.proxy.demo1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yiyun.proxy.demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.yiyun.proxy.demo1.Demo" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Demo.fun1" />
         <item itemvalue="Application.TestSet" />
       </list>
     </recent_temporary>
@@ -130,17 +184,31 @@
       <option name="presentableId" value="Default" />
       <updated>1548595702482</updated>
       <workItem from="1548595704082" duration="605000" />
-      <workItem from="1548647760156" duration="315000" />
+      <workItem from="1548647760156" duration="738000" />
+      <workItem from="1548768103067" duration="259000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1548648174472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548648174472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Demo_fun1 - 2019.01.28 at 12h 04m 09s.xml">
+      <configuration name="Demo.fun1" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="920000" />
+    <option name="totallyTimeSpent" value="1602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="21" width="1368" height="748" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -161,10 +229,12 @@
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Leiningen" />
+      <window_info anchor="right" id="REPL" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32954547" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.32954547" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -175,17 +245,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3015" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/com/yiyun/TestSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/src/main/java/com/yiyun/_4_factory/Pizza.java">
@@ -209,10 +280,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/proxy/demo1/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/proxy/demo1/Waiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_test/src/main/java/com/yiyun/TestSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        <state relative-caret-position="378">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>

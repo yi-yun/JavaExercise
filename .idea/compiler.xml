@@ -13,6 +13,7 @@
         <module name="java_se" />
         <module name="java_test" />
         <module name="JavaExercise" />
+        <module name="offer" />
         <module name="se" />
         <module name="springee" />
         <module name="test" />
