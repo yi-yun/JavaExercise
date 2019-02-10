@@ -1,7 +1,6 @@
 package com.yiyun;
 
 import com.yiyun.Rule03.Elvis;
-import com.yiyun.Rule04.UtilityClass;
 import com.yiyun.Rule05.Lexicon;
 import com.yiyun.Rule05.SpellChecker;
 import com.yiyun.Rule06.RomanNumerals;
@@ -22,6 +21,10 @@ public class AllTest {
         System.out.println(spellChecker.isValid("test"));
     }
     @Test
+    public void Test04(){
+//        UtilityClass utilityClass = new UtilityClass();
+    }
+    @Test
     public void Test03(){
         Elvis elvis1 = Elvis.INSTANCE;
         Elvis elvis2 = Elvis.INSTANCE;
@@ -29,8 +32,5 @@ public class AllTest {
 //        Elvis elvis = new Elvis();
         
     }
-    @Test
-    public void Test04(){
-//        UtilityClass utilityClass = new UtilityClass();
-    }
+    
 }
