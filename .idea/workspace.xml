@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b01950-71fb-4c7a-a98f-c28117f6978b" name="Default Changelist" comment="add offer">
+      <change afterPath="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/Generic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/AllTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/effective_java/target/" />
@@ -20,26 +21,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/Rule06/RomanNumerals.java">
+        <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="126">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/AllTest.java">
+        <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-279">
+              <caret line="605" column="24" selection-start-line="605" selection-start-column="19" selection-end-line="605" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/Collection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="251" column="15" lean-forward="true" selection-start-line="251" selection-start-column="15" selection-end-line="251" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -72,6 +80,8 @@
         <option value="$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/Rule05/SpellChecker.java" />
         <option value="$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/Rule06/RomanNumerals.java" />
         <option value="$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/AllTest.java" />
+        <option value="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/Generic.java" />
+        <option value="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java" />
       </list>
     </option>
   </component>
@@ -104,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -116,25 +125,25 @@
             <path>
               <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="effective_java" type="462c0819:PsiDirectoryNode" />
+              <item name="java_se" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="effective_java" type="462c0819:PsiDirectoryNode" />
+              <item name="java_se" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="effective_java" type="462c0819:PsiDirectoryNode" />
+              <item name="java_se" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="effective_java" type="462c0819:PsiDirectoryNode" />
+              <item name="java_se" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -142,7 +151,7 @@
             <path>
               <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="effective_java" type="462c0819:PsiDirectoryNode" />
+              <item name="java_se" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -151,36 +160,24 @@
             <path>
               <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
+              <item name="java_se" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
-              <item name="parent" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yiyun" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549257865801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549894806105" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -204,13 +201,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllTest.Test06">
-    <configuration name="UtilityClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yiyun.Rule04.UtilityClass" />
-      <module name="effective" />
+  <component name="RunManager" selected="JUnit.TestList.fun03">
+    <configuration name="Generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiyun.container.Generic" />
+      <module name="se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiyun.Rule04.*" />
+          <option name="PATTERN" value="com.yiyun.container.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yiyun.container.TestList" />
+      <module name="se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yiyun.container.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,65 +246,49 @@
       <module name="" />
       <method v="2" />
     </configuration>
-    <configuration name="AllTest.Test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effective" />
+    <configuration name="TestList.fun02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiyun.*" />
+          <option name="PATTERN" value="com.yiyun.container.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yiyun" />
-      <option name="MAIN_CLASS_NAME" value="com.yiyun.AllTest" />
-      <option name="METHOD_NAME" value="Test03" />
+      <option name="PACKAGE_NAME" value="com.yiyun.container" />
+      <option name="MAIN_CLASS_NAME" value="com.yiyun.container.TestList" />
+      <option name="METHOD_NAME" value="fun02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllTest.Test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effective" />
+    <configuration name="TestList.fun03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiyun.*" />
+          <option name="PATTERN" value="com.yiyun.container.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yiyun" />
-      <option name="MAIN_CLASS_NAME" value="com.yiyun.AllTest" />
-      <option name="METHOD_NAME" value="Test04" />
+      <option name="PACKAGE_NAME" value="com.yiyun.container" />
+      <option name="MAIN_CLASS_NAME" value="com.yiyun.container.TestList" />
+      <option name="METHOD_NAME" value="fun03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllTest.Test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effective" />
+    <configuration name="TestTest.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springee" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiyun.*" />
+          <option name="PATTERN" value="com.yiyun.Spring.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yiyun" />
-      <option name="MAIN_CLASS_NAME" value="com.yiyun.AllTest" />
-      <option name="METHOD_NAME" value="Test05" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AllTest.Test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="effective" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yiyun.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yiyun" />
-      <option name="MAIN_CLASS_NAME" value="com.yiyun.AllTest" />
-      <option name="METHOD_NAME" value="Test06" />
+      <option name="PACKAGE_NAME" value="com.yiyun.Spring.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.yiyun.Spring.Test.TestTest" />
+      <option name="METHOD_NAME" value="Test4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -302,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AllTest.Test06" />
-        <item itemvalue="JUnit.AllTest.Test05" />
-        <item itemvalue="Application.UtilityClass" />
-        <item itemvalue="JUnit.AllTest.Test04" />
-        <item itemvalue="JUnit.AllTest.Test03" />
+        <item itemvalue="JUnit.TestList.fun03" />
+        <item itemvalue="JUnit.TestList.fun02" />
+        <item itemvalue="Application.TestList" />
+        <item itemvalue="Application.Generic" />
+        <item itemvalue="JUnit.TestTest.Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -328,6 +322,8 @@
       <workItem from="1548831756793" duration="5039000" />
       <workItem from="1548924917557" duration="10129000" />
       <workItem from="1549256998280" duration="874000" />
+      <workItem from="1549802228696" duration="324000" />
+      <workItem from="1549886952804" duration="4617000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1548648174472</created>
@@ -354,43 +350,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_fun1 - 2019.01.28 at 12h 04m 09s.xml">
-      <configuration name="Demo.fun1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_Test03 - 2019.01.30 at 15h 45m 51s.xml">
-      <configuration name="AllTest.Test03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_Test03 - 2019.01.30 at 15h 47m 19s.xml">
-      <configuration name="AllTest.Test03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_Test03 - 2019.01.30 at 15h 47m 31s.xml">
-      <configuration name="AllTest.Test03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_Test03 - 2019.01.30 at 16h 03m 42s.xml">
-      <configuration name="AllTest.Test03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_Test05 - 2019.01.31 at 17h 50m 24s.xml">
-      <configuration name="AllTest.Test05" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_Test06 - 2019.01.31 at 20h 23m 09s.xml">
-      <configuration name="AllTest.Test06" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllTest_Test06 - 2019.01.31 at 20h 23m 36s.xml">
-      <configuration name="AllTest.Test06" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AllTest_Test06 - 2019.01.31 at 20h 23m 45s.xml">
       <configuration name="AllTest.Test06" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestTest_Test4 - 2019.02.10 at 20h 40m 47s.xml">
+      <configuration name="TestTest.Test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun02 - 2019.02.11 at 22h 01m 43s.xml">
+      <configuration name="TestList.fun02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun02 - 2019.02.11 at 22h 02m 26s.xml">
+      <configuration name="TestList.fun02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun02 - 2019.02.11 at 22h 02m 50s.xml">
+      <configuration name="TestList.fun02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun02 - 2019.02.11 at 22h 15m 43s.xml">
+      <configuration name="TestList.fun02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun03 - 2019.02.11 at 22h 15m 53s.xml">
+      <configuration name="TestList.fun03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun03 - 2019.02.11 at 22h 16m 27s.xml">
+      <configuration name="TestList.fun03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun03 - 2019.02.11 at 22h 16m 45s.xml">
+      <configuration name="TestList.fun03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun03 - 2019.02.11 at 22h 17m 56s.xml">
+      <configuration name="TestList.fun03" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19701000" />
+    <option name="totallyTimeSpent" value="24642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="21" width="1368" height="748" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27954546" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.34775642" visible="true" weight="0.28863636" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.6522436" side_tool="true" visible="true" weight="0.28863636" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -398,13 +397,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32852563" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42147437" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32428116" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32921174" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.51777434" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32852563" />
@@ -494,9 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_ee/src/main/java/com/yiyun/Spring/DI/setterwired/App-context.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -574,22 +570,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/Rule06/RomanNumerals.java">
+    <entry file="file://$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/AllTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="414">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/AllTest.java">
+    <entry file="file://$PROJECT_DIR$/java_ee/src/main/java/com/yiyun/Spring/Test/TestTest-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="126">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ee/src/main/java/com/yiyun/Spring/Test/TestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/Rule06/RomanNumerals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="129" column="23" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="23" />
+          <folding>
+            <element signature="docComment;class#Map#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/Generic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="251" column="15" lean-forward="true" selection-start-line="251" selection-start-column="15" selection-end-line="251" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="605" column="24" selection-start-line="605" selection-start-column="19" selection-end-line="605" selection-end-column="24" />
         </state>
       </provider>
     </entry>
