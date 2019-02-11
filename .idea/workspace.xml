@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b01950-71fb-4c7a-a98f-c28117f6978b" name="Default Changelist" comment="add offer">
-      <change afterPath="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/Generic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/MyArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_se/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java_se/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parent/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/effective_java/target/" />
@@ -21,33 +23,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java">
+        <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="72">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/List.java">
+        <entry file="file://$PROJECT_DIR$/java_se/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-279">
-              <caret line="605" column="24" selection-start-line="605" selection-start-column="19" selection-end-line="605" selection-end-column="24" />
+            <state relative-caret-position="82">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/Collection.java">
+        <entry file="file://$PROJECT_DIR$/parent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="251" column="15" lean-forward="true" selection-start-line="251" selection-start-column="15" selection-end-line="251" selection-end-column="15" />
+            <state relative-caret-position="105">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parent/pom.xml" />
         <option value="$PROJECT_DIR$/offer/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/proxy/demo2/AfterMethod.java" />
@@ -82,6 +96,9 @@
         <option value="$PROJECT_DIR$/effective_java/src/main/java/com/yiyun/AllTest.java" />
         <option value="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/Generic.java" />
         <option value="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java" />
+        <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/java_se/pom.xml" />
+        <option value="$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/MyArrayList.java" />
       </list>
     </option>
   </component>
@@ -115,6 +132,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,22 +185,26 @@
               <item name="yiyun" type="462c0819:PsiDirectoryNode" />
               <item name="container" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaExercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaExercise" type="462c0819:PsiDirectoryNode" />
+              <item name="parent" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549894806105" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549897906108" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -201,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestList.fun03">
+  <component name="RunManager" selected="JUnit.TestList.funMyArrayList">
     <configuration name="Generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yiyun.container.Generic" />
       <module name="se" />
@@ -278,17 +300,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTest.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springee" />
+    <configuration name="TestList.funMyArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yiyun.Spring.Test.*" />
+          <option name="PATTERN" value="com.yiyun.container.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.yiyun.Spring.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.yiyun.Spring.Test.TestTest" />
-      <option name="METHOD_NAME" value="Test4" />
+      <option name="PACKAGE_NAME" value="com.yiyun.container" />
+      <option name="MAIN_CLASS_NAME" value="com.yiyun.container.TestList" />
+      <option name="METHOD_NAME" value="funMyArrayList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -296,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestList.funMyArrayList" />
         <item itemvalue="JUnit.TestList.fun03" />
         <item itemvalue="JUnit.TestList.fun02" />
         <item itemvalue="Application.TestList" />
         <item itemvalue="Application.Generic" />
-        <item itemvalue="JUnit.TestTest.Test4" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +345,8 @@
       <workItem from="1548924917557" duration="10129000" />
       <workItem from="1549256998280" duration="874000" />
       <workItem from="1549802228696" duration="324000" />
-      <workItem from="1549886952804" duration="4617000" />
+      <workItem from="1549886952804" duration="6812000" />
+      <workItem from="1549897551405" duration="977000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1548648174472</created>
@@ -350,12 +373,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllTest_Test06 - 2019.01.31 at 20h 23m 45s.xml">
-      <configuration name="AllTest.Test06" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestTest_Test4 - 2019.02.10 at 20h 40m 47s.xml">
-      <configuration name="TestTest.Test4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestList_fun02 - 2019.02.11 at 22h 01m 43s.xml">
       <configuration name="TestList.fun02" configurationId="JUnit" />
     </history-entry>
@@ -380,16 +397,21 @@
     <history-entry file="TestList_fun03 - 2019.02.11 at 22h 17m 56s.xml">
       <configuration name="TestList.fun03" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestList_funMyArrayList - 2019.02.11 at 23h 01m 21s.xml">
+      <configuration name="TestList.funMyArrayList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_funMyArrayList - 2019.02.11 at 23h 10m 01s.xml">
+      <configuration name="TestList.funMyArrayList" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24642000" />
+    <option name="totallyTimeSpent" value="27814000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="21" width="1368" height="748" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.34775642" visible="true" weight="0.28863636" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.6522436" side_tool="true" visible="true" weight="0.28863636" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6079734" visible="true" weight="0.2931818" />
+      <window_info id="Structure" order="1" sideWeight="0.39202657" side_tool="true" visible="true" weight="0.2931818" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -397,13 +419,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42147437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30128205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39903846" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32921174" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.51777434" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.5176282" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32852563" />
@@ -480,16 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_se/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -631,20 +643,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="621" column="15" selection-start-line="621" selection-start-column="8" selection-end-line="621" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="3212" column="19" selection-start-line="3212" selection-start-column="19" selection-end-line="3212" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="492" column="39" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="479" column="56" selection-start-line="479" selection-start-column="45" selection-end-line="479" selection-end-column="56" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="198">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="605" column="24" selection-start-line="605" selection-start-column="19" selection-end-line="605" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_se/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -17,6 +17,14 @@ public class TestList {
     }
     @Test
     //test list
+    public void funMyArrayList(){
+        MyArrayList myArrayList = new MyArrayList();
+        myArrayList.add("aa");
+        myArrayList.add("bb");
+        System.out.println("myArrayList = " + myArrayList);
+    }
+    @Test
+    //test list
     public void fun03(){
         List<String> list01=new ArrayList<>();
         list01.add("aa");
