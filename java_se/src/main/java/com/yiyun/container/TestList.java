@@ -18,10 +18,14 @@ public class TestList {
     @Test
     //test list
     public void funMyArrayList(){
-        MyArrayList myArrayList = new MyArrayList();
+        MyArrayList<String> myArrayList = new MyArrayList<>();
         myArrayList.add("aa");
         myArrayList.add("bb");
         System.out.println("myArrayList = " + myArrayList);
+        MyArrayList<Integer> integerMyArrayList = new MyArrayList<>();
+        integerMyArrayList.add(1);
+        integerMyArrayList.add(2);
+        System.out.println("integerMyArrayList = " + integerMyArrayList);
     }
     @Test
     //test list
