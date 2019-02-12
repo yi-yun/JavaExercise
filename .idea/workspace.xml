@@ -37,11 +37,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="258" column="58" lean-forward="true" selection-start-line="258" selection-start-column="58" selection-end-line="258" selection-end-column="58" />
+            <state relative-caret-position="89">
+              <caret line="654" column="4" selection-start-line="654" selection-start-column="4" selection-end-line="657" selection-end-column="5" />
               <folding>
                 <element signature="e#6283#6284#0" expanded="true" />
                 <element signature="e#6351#6352#0" expanded="true" />
+                <element signature="e#15586#15587#0" expanded="true" />
+                <element signature="e#15631#15632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/MyArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="231">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -59,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+            <state relative-caret-position="108">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549967406072" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549968225152" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -231,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestList.fun03">
+  <component name="RunManager" selected="JUnit.TestList.fun02">
     <configuration name="Generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yiyun.container.Generic" />
       <module name="se" />
@@ -326,9 +328,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestList.fun03" />
-        <item itemvalue="JUnit.TestList.funMyArrayList" />
         <item itemvalue="JUnit.TestList.fun02" />
+        <item itemvalue="JUnit.TestList.funMyArrayList" />
+        <item itemvalue="JUnit.TestList.fun03" />
         <item itemvalue="Application.TestList" />
         <item itemvalue="Application.Generic" />
       </list>
@@ -357,7 +359,7 @@
       <workItem from="1549897551405" duration="2172000" />
       <workItem from="1549901127891" duration="985000" />
       <workItem from="1549902164747" duration="352000" />
-      <workItem from="1549965695549" duration="1516000" />
+      <workItem from="1549965695549" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1548648174472</created>
@@ -384,12 +386,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestList_funMyArrayList - 2019.02.11 at 23h 01m 21s.xml">
-      <configuration name="TestList.funMyArrayList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestList_funMyArrayList - 2019.02.11 at 23h 10m 01s.xml">
-      <configuration name="TestList.funMyArrayList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestList_funMyArrayList - 2019.02.11 at 23h 56m 59s.xml">
       <configuration name="TestList.funMyArrayList" configurationId="JUnit" />
     </history-entry>
@@ -414,24 +410,30 @@
     <history-entry file="TestList_funMyArrayList - 2019.02.12 at 18h 24m 01s.xml">
       <configuration name="TestList.funMyArrayList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestList_fun03 - 2019.02.12 at 18h 26m 58s.xml">
+      <configuration name="TestList.fun03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_fun03 - 2019.02.12 at 18h 27m 22s.xml">
+      <configuration name="TestList.fun03" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31862000" />
+    <option name="totallyTimeSpent" value="32739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1366" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47477064" visible="true" weight="0.2469697" />
-      <window_info id="Structure" order="1" sideWeight="0.52522933" side_tool="true" visible="true" weight="0.2469697" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.47204968" visible="true" weight="0.2469697" />
+      <window_info id="Structure" order="1" sideWeight="0.5279503" side_tool="true" visible="true" weight="0.2469697" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.48397437" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30128205" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.48397437" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30128205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48076922" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,18 +465,6 @@
     <MESSAGE value="test" />
     <MESSAGE value="add offer" />
     <option name="LAST_COMMIT_MESSAGE" value="add offer" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/MyArrayList.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -722,26 +712,28 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-jdk/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="258" column="58" lean-forward="true" selection-start-line="258" selection-start-column="58" selection-end-line="258" selection-end-column="58" />
+        <state relative-caret-position="89">
+          <caret line="654" column="4" selection-start-line="654" selection-start-column="4" selection-end-line="657" selection-end-column="5" />
           <folding>
             <element signature="e#6283#6284#0" expanded="true" />
             <element signature="e#6351#6352#0" expanded="true" />
+            <element signature="e#15586#15587#0" expanded="true" />
+            <element signature="e#15631#15632#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/MyArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="231">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_se/src/main/java/com/yiyun/container/TestList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        <state relative-caret-position="108">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

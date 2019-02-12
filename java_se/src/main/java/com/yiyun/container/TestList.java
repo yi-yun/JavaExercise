@@ -30,6 +30,7 @@ public class TestList {
             integerMyArrayList.add(i);
         }
         System.out.println("integerMyArrayList = " + integerMyArrayList);
+        integerMyArrayList.get(-9);
         
         
     }
@@ -72,6 +73,7 @@ public class TestList {
         list02.add("dd");
         list02.add("ee");
 
+        System.out.println(list02.get(-9));
         System.out.println("list01 = " + list01);
         System.out.println("list02 = " + list02);
         

@@ -24,4 +24,18 @@ public class MyArrayList<T> {
         }
         elementData[size++]=obj;
     }
+    public T get(int index){
+        rangeCheck(index);
+        return (T) elementData[index];
+    }
+    public T set(int index,T element){
+        rangeCheck(index);
+        T old= (T) elementData[index];
+        elementData[index]=element;
+        return old; 
+    }
+    private void rangeCheck(int index) {
+        if (index >= size)
+            throw new RuntimeException("边界异常");
+    }
 }
