@@ -6,4 +6,5 @@
 ## progress bar
 
 ### 容器
--[ ] ArratList(预计 2.12 完成)
+-[X] ArrayList(已完成)
+-[ ] LinkedList(预计 2.13 完成)
