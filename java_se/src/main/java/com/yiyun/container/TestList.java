@@ -15,8 +15,9 @@ public class TestList {
         System.out.println("c = " + c);
         System.out.println(c.size());
     }
+    
+    //test mylist
     @Test
-    //test list
     public void funMyArrayList(){
         MyArrayList<String> myArrayList = new MyArrayList<>();
         myArrayList.add("aa");
@@ -25,7 +26,12 @@ public class TestList {
         MyArrayList<Integer> integerMyArrayList = new MyArrayList<>();
         integerMyArrayList.add(1);
         integerMyArrayList.add(2);
+        for(int i=0;i<40;i++){
+            integerMyArrayList.add(i);
+        }
         System.out.println("integerMyArrayList = " + integerMyArrayList);
+        
+        
     }
     @Test
     //test list
@@ -41,6 +47,17 @@ public class TestList {
         list01.set(0,"233");
         System.out.println("list01 = " + list01);
         System.out.println(list01.get(1));
+
+        List<Integer> listtest=new ArrayList<>();
+        listtest.add(1);
+        listtest.add(2);
+        for(int i=0;i<40;i++){
+            listtest.add(i);
+        }
+        System.out.println("listtest = " + listtest);
+        System.out.println(listtest.size());
+
+
     }
     
     @Test

@@ -14,7 +14,14 @@ public class MyArrayList<T> {
     public MyArrayList(int capacity){
         elementData=new Object[capacity];
     }
+    //需要考虑扩容
     public void add(T obj){
+        int old=elementData.length;
+        if(size==old){
+            Object[] newArray=new Object[old+(old>>1)];
+            System.arraycopy(elementData,0,newArray,0,old);
+            elementData=newArray;
+        }
         elementData[size++]=obj;
     }
 }
