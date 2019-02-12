@@ -24,14 +24,16 @@ public class TestList {
         myArrayList.add("bb");
         System.out.println("myArrayList = " + myArrayList);
         MyArrayList<Integer> integerMyArrayList = new MyArrayList<>();
-        integerMyArrayList.add(1);
+        integerMyArrayList.add(6);
         integerMyArrayList.add(2);
         for(int i=0;i<40;i++){
             integerMyArrayList.add(i);
         }
         System.out.println("integerMyArrayList = " + integerMyArrayList);
-        integerMyArrayList.get(-9);
-        
+//        integerMyArrayList.get(-9);
+        integerMyArrayList.remove(1);
+        boolean b = myArrayList.remove("aa");
+        System.out.println("integerMyArrayList = " + integerMyArrayList);
         
     }
     @Test

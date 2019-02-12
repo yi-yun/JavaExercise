@@ -38,4 +38,35 @@ public class MyArrayList<T> {
         if (index >= size)
             throw new RuntimeException("边界异常");
     }
+    public boolean remove(T element){
+        if(element==null){
+            for(int i=0;i<size;i++){
+                if (elementData[i] == null) {
+                    fastRemove(i);
+                    return true;
+                }
+            }
+        }else {
+            for(int i=0;i<size;i++){
+                if (elementData[i] == element) {
+                    fastRemove(i);
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    public T remove(int index){
+        T old= (T) elementData[index];
+        fastRemove(index);
+        return old;
+    }
+
+    private void fastRemove(int i) {
+        int numRemove=size-1-i;
+        if(numRemove>0){
+            System.arraycopy(elementData,i+1,elementData,i,numRemove);
+        }
+        elementData[--size]=null;
+    }
 }
