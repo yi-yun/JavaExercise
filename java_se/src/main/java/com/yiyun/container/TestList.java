@@ -1,5 +1,7 @@
 package com.yiyun.container;
 
+import com.yiyun.container.link.MyLinkedList;
+import com.yiyun.container.link.Node;
 import org.junit.Test;
 
 import java.util.*;
@@ -16,6 +18,33 @@ public class TestList {
         System.out.println(c.size());
     }
     
+    @Test
+    public void funTemplate(){
+        
+    }
+
+    @Test
+    public void funLinked(){
+        MyLinkedList<String> myLinkedList = new MyLinkedList<>();
+        myLinkedList.add("aa");
+        myLinkedList.add("bb");
+        myLinkedList.add("cc");
+        myLinkedList.add("dd");
+        myLinkedList.add("ee");
+        
+        System.out.println("myLinkedList = " + myLinkedList);
+        System.out.println("myLinkedList.get(3) = " + myLinkedList.get(3));
+        
+        myLinkedList.remove(0);
+        myLinkedList.remove(0);
+        myLinkedList.remove(0);
+        System.out.println("myLinkedList.getSize() = " + myLinkedList.getSize());
+//        myLinkedList.remove(8);
+        System.out.println("myLinkedList = " + myLinkedList);
+        myLinkedList.add(1,"rr");
+        System.out.println("myLinkedList = " + myLinkedList);
+
+    }
     //test mylist
     @Test
     public void funMyArrayList(){

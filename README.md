@@ -45,5 +45,5 @@ J2EE Development without EJB
 ## 2.12
 - [x] ArrayList 实现
 ## 2.13
-- [ ] LinkedList 实现
-- [ ] lombok 原理
+- [x] LinkedList 实现
+- [x] lombok 原理
