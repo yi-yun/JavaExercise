@@ -23,7 +23,7 @@
     - [ ] HashMap
     - [ ] Map
     - [x] 泛型
-    - Interator
+    - [ ] Iterator
 - 面对对象 
 - 线程
 - 反射
