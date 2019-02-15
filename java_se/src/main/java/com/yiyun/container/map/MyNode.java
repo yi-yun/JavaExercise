@@ -4,9 +4,9 @@ import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
-public class MyNode {
+public class MyNode<K,V> {
     int hash;
-    Object key;
-    Object value;
+    K key;
+    V value;
     MyNode next;
 }

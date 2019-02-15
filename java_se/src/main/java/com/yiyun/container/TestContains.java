@@ -32,6 +32,7 @@ public class TestContains {
         myHashMap.put(69,"rr");
         myHashMap.put(85,"yiyun");
         System.out.println("myHashMap = " + myHashMap);
+        System.out.println("myHashMap.get(69) = " + myHashMap.get(69));
     }
     @Test
     public void funHash(){
@@ -44,6 +45,8 @@ public class TestContains {
     @Test
     public void funHashMap(){
         Map<Integer, String> hashMap = new HashMap<>();
+        hashMap.put(2,"yi-yun");
+        System.out.println("hashMap.get(1) = " + hashMap.get(1));
     }
     
     @Test

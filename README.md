@@ -52,5 +52,5 @@ J2EE Development without EJB
 ## 2.15
 - [ ] BBR
 - [x] Vector
-- [ ] HashMap（介绍了解）
+- [x] HashMap
 - [ ] Clojure
