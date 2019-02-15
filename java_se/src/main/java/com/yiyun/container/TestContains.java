@@ -2,11 +2,12 @@ package com.yiyun.container;
 
 import com.yiyun.container.link.MyLinkedList;
 import com.yiyun.container.link.Node;
+import com.yiyun.container.map.MyHashMap;
 import org.junit.Test;
 
 import java.util.*;
 
-public class TestList {
+public class TestContains {
     public static void main(String[] args) {
         Collection<String> c=new ArrayList<>();
 
@@ -20,12 +21,29 @@ public class TestList {
     
     @Test
     public void funTemplate(){
-        
+    }
+    @Test
+    public void funMyHashMap(){
+        MyHashMap myHashMap = new MyHashMap();
+        myHashMap.put(1,"aa");
+        myHashMap.put(2,"bb");
+        myHashMap.put(3,"cc");
+        myHashMap.put(53,"gg");
+        myHashMap.put(69,"rr");
+        myHashMap.put(85,"yiyun");
+        System.out.println("myHashMap = " + myHashMap);
+    }
+    @Test
+    public void funHash(){
+        int h = 25860363;
+        int length = 16;//length为2的整数次幂,则h&(length-1)相当于对length取模
+        System.out.println(h&(length-1));
+        //length为2的整数幂情况下，和取余的值一样
+        System.out.println(h%length);//取余数
     }
     @Test
     public void funHashMap(){
         Map<Integer, String> hashMap = new HashMap<>();
-        
     }
     
     @Test

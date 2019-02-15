@@ -20,13 +20,13 @@
         - [x] LinkedList
         - Set
             - [ ] HashSet 
-    - [ ] HashMap
     - [ ] Map
+        - [ ] HashMap
     - [x] 泛型
     - [ ] Iterator
 - 面对对象 
 - 线程
-- 反射
+- [x] 反射
 - 虚拟机
 
 ### Java EE
@@ -48,7 +48,7 @@ J2EE Development without EJB
 - [x] LinkedList 实现
 - [x] lombok 原理
 ## 2.14
-今日没空~~，去过情人节了~~去喝喜酒了
+今日没空~~去过情人节了~~去喝喜酒了
 ## 2.15
 - [ ] BBR
 - [x] Vector
