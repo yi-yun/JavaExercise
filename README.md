@@ -6,7 +6,7 @@
 
 # 待学  
 ## 杂七杂八
-- [ ] lombok
+- [x] lombok
 - [ ] 尾递归
 - 长期
     - [ ] Clojure
@@ -20,8 +20,8 @@
         - [x] LinkedList
         - Set
             - [ ] HashSet 
-    - [ ] Map
-        - [ ] HashMap
+    - [x] Map
+        - [x] HashMap
     - [x] 泛型
     - [ ] Iterator
 - 面对对象 
@@ -50,7 +50,7 @@ J2EE Development without EJB
 ## 2.14
 今日没空~~去过情人节了~~去喝喜酒了
 ## 2.15
-- [ ] BBR
+- [x] BBR
 - [x] Vector
 - [x] HashMap
-- [ ] Clojure
+- [x] Clojure map 练习
