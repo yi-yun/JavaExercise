@@ -22,6 +22,19 @@ public class TestList {
     public void funTemplate(){
         
     }
+    @Test
+    public void funHashMap(){
+        Map<Integer, String> hashMap = new HashMap<>();
+        
+    }
+    
+    @Test
+    public void funVector(){
+        Vector<Integer> vector = new Vector<>();
+        vector.add(43);
+        vector.add(23);
+        System.out.println("vector = " + vector);
+    }
 
     @Test
     public void funLinked(){

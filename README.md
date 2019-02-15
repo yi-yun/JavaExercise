@@ -51,6 +51,6 @@ J2EE Development without EJB
 今日没空~~，去过情人节了~~去喝喜酒了
 ## 2.15
 - [ ] BBR
-- [ ] Vector
+- [x] Vector
 - [ ] HashMap（介绍了解）
 - [ ] Clojure
