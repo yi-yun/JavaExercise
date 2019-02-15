@@ -17,7 +17,7 @@
 - 源码实现（设计模式）  
     - Collection
         - [x] ArrayList
-        - [ ] LinkedList
+        - [x] LinkedList
         - Set
             - [ ] HashSet 
     - [ ] HashMap
@@ -49,3 +49,8 @@ J2EE Development without EJB
 - [x] lombok 原理
 ## 2.14
 今日没空~~，去过情人节了~~去喝喜酒了
+## 2.15
+- [ ] BBR
+- [ ] Vector
+- [ ] HashMap（介绍了解）
+- [ ] Clojure
