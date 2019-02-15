@@ -42,15 +42,21 @@
 J2EE Development without EJB
 
 # 记录
+
 ## 2.12
 - [x] ArrayList 实现
+
 ## 2.13
 - [x] LinkedList 实现
 - [x] lombok 原理
+
 ## 2.14
 今日没空~~去过情人节了~~去喝喜酒了
+
 ## 2.15
 - [x] BBR
 - [x] Vector
 - [x] HashMap
 - [x] Clojure map 练习
+
+## 2.16
