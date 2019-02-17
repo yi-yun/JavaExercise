@@ -19,12 +19,12 @@
         - [x] ArrayList
         - [x] LinkedList
         - Set
-            - [ ] HashSet
-            - [ ] TreeSet
+            - [x] HashSet
+            - [x] TreeSet
     - [x] Map
         - [x] HashMap
     - [x] 泛型
-    - [ ] Iterator
+    - [x] Iterator
 - 面对对象 
 - 线程
 - [x] 反射
