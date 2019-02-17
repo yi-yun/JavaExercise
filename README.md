@@ -19,7 +19,8 @@
         - [x] ArrayList
         - [x] LinkedList
         - Set
-            - [ ] HashSet 
+            - [ ] HashSet
+            - [ ] TreeSet
     - [x] Map
         - [x] HashMap
     - [x] 泛型
@@ -63,6 +64,6 @@ J2EE Development without EJB
 无
 
 ## 2.17
-- [ ] TreeMap
-- [ ] HashSet
-- [ ] Iterator
+- [X] TreeMap
+- [x] Set
+- [x] Iterator
