@@ -32,9 +32,9 @@
 ### Java EE
 
 ### 源码
-- JUnit
-- SpringSide
-- Jive 论坛
+- [ ] JUnit
+- [ ] SpringSide
+- [ ] Jive 论坛
 
 ### 数据库
 
@@ -57,6 +57,12 @@ J2EE Development without EJB
 - [x] BBR
 - [x] Vector
 - [x] HashMap
-- [x] Clojure map 练习
+- [x] Clojure(map 练习)
 
 ## 2.16
+无
+
+## 2.17
+- [ ] TreeMap
+- [ ] HashSet
+- [ ] Iterator

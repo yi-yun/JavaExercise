@@ -23,6 +23,18 @@ public class TestContains {
     public void funTemplate(){
     }
     @Test
+    public void funTreeMap(){
+        Map<Integer, String> treeMap = new TreeMap<>();
+        treeMap.put(210,"aa");
+        treeMap.put(330,"bb");
+        treeMap.put(40,"dd");
+        for (Integer e:treeMap.keySet()) {
+            System.out.println(e+"----"+treeMap.get(e));
+        }
+
+
+    }
+    @Test
     public void funMyHashMap(){
         MyHashMap myHashMap = new MyHashMap();
         myHashMap.put(1,"aa");
