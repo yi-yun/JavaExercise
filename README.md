@@ -77,5 +77,5 @@ J2EE Development without EJB
 - [x] 多线程实践1
 
 ## 2.19
-- [ ] 多线程实践2
+- [x] 多线程实践2
 - [ ] 进程与线程
