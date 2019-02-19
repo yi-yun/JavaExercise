@@ -75,3 +75,7 @@ J2EE Development without EJB
 - [ ] 漫谈机组
 - [x] Clojure(条件分支)
 - [x] 多线程实践1
+
+## 2.19
+- [ ] 多线程实践2
+- [ ] 进程与线程
