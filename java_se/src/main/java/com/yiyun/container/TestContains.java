@@ -5,6 +5,8 @@ import com.yiyun.container.map.MyHashMap;
 import org.junit.Test;
 
 import java.util.*;
+import java.util.concurrent.BlockingDeque;
+import java.util.concurrent.TransferQueue;
 
 public class TestContains {
     public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class TestContains {
         c.add("233");
         System.out.println("c = " + c);
         System.out.println(c.size());
+        TransferQueue
     }
 
     @Test
