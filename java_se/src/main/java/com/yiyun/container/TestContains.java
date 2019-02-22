@@ -18,7 +18,7 @@ public class TestContains {
         c.add("233");
         System.out.println("c = " + c);
         System.out.println(c.size());
-        TransferQueue
+//        TransferQueue
     }
 
     @Test
