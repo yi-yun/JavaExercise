@@ -12,6 +12,7 @@
     - [ ] Clojure
     - [ ] 算法
 
+
 ## Java
 ### Java SE
 - 源码实现（设计模式）  
@@ -37,10 +38,15 @@
 - [ ] SpringSide
 - [ ] Jive 论坛
 
-### 数据库
+
 
 ### 框架
 J2EE Development without EJB
+
+## 计算机网络
+- [ ] MQTT 协议
+
+##  数据库
 
 # 记录
 
@@ -90,3 +96,10 @@ J2EE Development without EJB
 - [x] 多线程实践4
 - [x] 进程与线程
 - [x] 算法图解
+
+## 2.23
+
+> 要尽快完成 剑指 Offer 的阅读，看完面经以及 CS-Notes
+> 考虑一天一个设计模式以及研读 Java 并发实战
+
+- [x] 处理锚点
