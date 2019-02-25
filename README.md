@@ -103,3 +103,10 @@ J2EE Development without EJB
 > 考虑一天一个设计模式以及研读 Java 并发实战
 
 - [x] 处理锚点
+
+## 2.24 
+- 看《剑指 Offer》
+
+## 2.25
+> 解决背包问题
+- md 什么都没干
