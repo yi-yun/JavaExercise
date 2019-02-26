@@ -110,3 +110,6 @@ J2EE Development without EJB
 ## 2.25
 > 解决背包问题
 - md 什么都没干
+
+## 2.26
+> 背包九讲
