@@ -113,3 +113,6 @@ J2EE Development without EJB
 
 ## 2.26
 > 背包九讲
+
+## 2.27
+- [] 剑指 Offer 进行中
