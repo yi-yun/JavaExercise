@@ -125,4 +125,4 @@ J2EE Development without EJB
 - 刷题
     - [x] 剑指 Offer
     - [ ] LeetCode
-- [ ] 一天一个设计模式
+- [x] 一天一个设计模式
