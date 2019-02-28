@@ -115,4 +115,14 @@ J2EE Development without EJB
 > 背包九讲
 
 ## 2.27
-- [] 剑指 Offer 进行中
+- [ ] 剑指 Offer 进行中
+
+## 2.28
+> 全面备战，诸事勿扰
+
+- [ ] CS-Notes
+- [ ] 并发实战
+- 刷题
+    - [ ] 剑指 Offer
+    - [ ] LeetCode
+- [ ] 一天一个设计模式
