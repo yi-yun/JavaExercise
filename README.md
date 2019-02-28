@@ -123,6 +123,6 @@ J2EE Development without EJB
 - [ ] CS-Notes
 - [ ] 并发实战
 - 刷题
-    - [ ] 剑指 Offer
+    - [x] 剑指 Offer
     - [ ] LeetCode
 - [ ] 一天一个设计模式
