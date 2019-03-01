@@ -126,3 +126,16 @@ J2EE Development without EJB
     - [x] 剑指 Offer
     - [x] LeetCode
 - [x] 一天一个设计模式
+
+## 3.1
+> 磨了一天亚克力板
+
+## 2.28
+> 全面备战，诸事勿扰
+
+- [ ] CS-Notes
+- [ ] 并发实战
+- 刷题
+    - [ ] 剑指 Offer
+    - [ ] LeetCode
+- [ ] 一天一个设计模式
