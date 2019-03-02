@@ -24,6 +24,22 @@ public class TestContains {
     @Test
     public void funTemplate() {
     }
+    @Test
+    public void funInteration() {
+        List<String> list = new ArrayList<>();
+        list.add("yi-yun1");
+        list.add("yi-yun2");
+        list.add("yi-yun3");
+        list.add("yi-yun4");
+        Iterator it=list.iterator();
+        while (it.hasNext()){
+            System.out.println(it.next());
+        }
+        for (Iterator it2=list.iterator();it2.hasNext();) {
+            String next = (String) it2.next();
+            System.out.println(next);
+        }
+    }
 
     @Test
     public void funSet() {
