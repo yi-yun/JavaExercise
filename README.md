@@ -46,7 +46,7 @@ J2EE Development without EJB
 ## 计算机网络
 - [ ] MQTT 协议
 
-##  数据库
+## 数据库
 
 # 记录
 
@@ -130,10 +130,19 @@ J2EE Development without EJB
 ## 3.1
 > 磨了一天亚克力板
 
-
 - [ ] CS-Notes
 - [ ] 并发实战
 - 刷题
     - [ ] 剑指 Offer
     - [ ] LeetCode
 - [x] 适配器模式
+
+## 3.2
+
+- [ ] CS-Notes
+- [ ] 并发实战
+- 刷题
+    - [ ] 剑指 Offer
+    - [ ] LeetCode
+- [x] 外观模式
+- [X] Clojure 递归
