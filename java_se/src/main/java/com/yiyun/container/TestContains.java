@@ -25,13 +25,30 @@ public class TestContains {
     public void funTemplate() {
     }
     @Test
-    public void funInteration() {
+    public void funPreIteration() {
+        List<String> list = new ArrayList<>();
+        list.add("yi-yun5");
+        list.add("yi-yun6");
+        list.add("yi-yun7");
+        list.add("yi-yun82");
+        ListIterator<String> listIterator = list.listIterator();
+        while(listIterator.hasNext()){//向后遍历
+            System.out.println(listIterator.next());
+        }
+        System.out.println("------------------------");
+        while (listIterator.hasPrevious()){
+            System.out.println(listIterator.previous());
+        }
+    }
+    @Test
+    public void funIteration() {
         List<String> list = new ArrayList<>();
         list.add("yi-yun1");
         list.add("yi-yun2");
         list.add("yi-yun3");
         list.add("yi-yun4");
         Iterator it=list.iterator();
+        System.out.println("it = " + it);
         while (it.hasNext()){
             System.out.println(it.next());
         }
