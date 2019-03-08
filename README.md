@@ -33,7 +33,7 @@
 - [ ] [代理](https://www.jianshu.com/p/992dfcecff34)
 - 线程
 - [x] 反射
-- 虚拟机
+- [ ] 虚拟机
 - [ ] Java8 新特性
 
 ### Java EE

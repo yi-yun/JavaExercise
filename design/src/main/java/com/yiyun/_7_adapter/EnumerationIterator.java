@@ -1,14 +1,14 @@
 package com.yiyun._7_adapter;
 
+import lombok.AllArgsConstructor;
+
 import java.util.Enumeration;
 import java.util.Iterator;
 
-public class EnumerationInterator implements Iterator {
+@AllArgsConstructor
+public class EnumerationIterator implements Iterator {
     Enumeration enumeration;
 
-    public EnumerationInterator(Enumeration enumeration) {
-        this.enumeration = enumeration;
-    }
 
     @Override
     public boolean hasNext() {
