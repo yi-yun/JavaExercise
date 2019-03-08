@@ -10,8 +10,12 @@
 - [ ] 尾递归
 - 长期
     - [ ] Clojure
-    - [ ] 算法
+    
 
+## 算法
+- [ ] 动态规划
+- [ ] 图
+- [x] 链表
 
 ## Java
 ### Java SE
@@ -26,7 +30,7 @@
         - [x] HashMap
     - [x] 泛型
     - [x] Iterator
-- 面对对象 
+- [ ] [代理](https://www.jianshu.com/p/992dfcecff34)
 - 线程
 - [x] 反射
 - 虚拟机

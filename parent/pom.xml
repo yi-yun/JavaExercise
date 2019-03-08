@@ -16,7 +16,6 @@
         <module>../effective_java</module>
         <module>../design</module>
         <module>../java_ee</module>
-        <module>../offer</module>
     </modules>
 
     <properties>

@@ -13,11 +13,13 @@
         <module name="java_se" />
         <module name="java_test" />
         <module name="JavaExercise" />
-        <module name="offer" />
         <module name="se" />
         <module name="springee" />
         <module name="test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="offer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
