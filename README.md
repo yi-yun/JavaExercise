@@ -10,6 +10,8 @@
 - [ ] 尾递归
 - 长期
     - [ ] Clojure
+- Nginx
+- GraphQL
     
 
 ## 算法
@@ -48,6 +50,8 @@
 ### 框架
 - J2EE Development without EJB
 - SpringMVC
+    - [ ] 视频
+    - [ ] 看透SpringMVC  
 - Spring
 
 ## 计算机网络
@@ -162,4 +166,7 @@
 > 受不可抗力因素影响，罢工了三天，内心很是愧疚
 
 ## 3.8
-- [x] 迭代器与组合模式
+- [x] 迭代器模式
+
+## 3.11
+- [x] 组合模式
