@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class Collection {
@@ -61,6 +62,42 @@ public class Collection {
         System.out.println("strings = " + strings.length);
     }
     @Test
-    public void funTemplate5() {
+    public void funAsList() {
+//        List<String> list1 = Arrays.asList("yi-yun1", "yi-yun2");
+//        Iterator<String> iterator = list1.iterator();
+//        while (iterator.hasNext()){
+//            System.out.println("iterator.next() = " + iterator.next());
+//        }
+//        System.out.println("-------------------");
+//        List<Object> list2 = Arrays.asList("yi-yun1", "yi-yun2",new Object());
+//        Iterator<Object> iterator1 = list2.iterator();
+//        while (iterator1.hasNext()){
+//            System.out.println("iterator.next() = " + iterator1.next());
+//        }
+//        System.out.println("-------------------");
+//        List<Object> list3 = Arrays.asList("yi-yun1", "yi-yun2");
+//        Iterator<Object> iterator3 = list3.iterator();
+//        while (iterator3.hasNext()){
+//            System.out.println("iterator.next() = " + iterator3.next());
+//        }
+        List<Object> list1 = Arrays.asList("1", "2");
+        Iterator<Object> iterator1 = list1.iterator();
+        while (iterator1.hasNext()){
+            System.out.println("iterator.next() = " + iterator1.next());
+        }
+        List<String> list2 = Arrays.asList("1", "2");
+        System.out.println("-------------------");
+        Iterator<String> iterator2 = list2.iterator();
+        while (iterator2.hasNext()){
+            System.out.println("iterator.next() = " + iterator2.next());
+        }
+        List<String> testList=new ArrayList<>();
+        System.out.println("-------------------");
+//        List<Object> list3=testList;
+//        List<Object> list4=list2;
+    }
+    @Test
+    public void funCat(){
+        
     }
 }
