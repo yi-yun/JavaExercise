@@ -1,4 +1,4 @@
-package com.yiyun.states;
+package com.yiyun._12_states;
 
 public class App {
     public static void main(String[] args) {
