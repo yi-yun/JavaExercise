@@ -37,11 +37,7 @@
                 <artifactId>cglib</artifactId>
                 <version>${cglib.version}</version>
             </dependency>
-            <dependency>
-                <groupId>cglib</groupId>
-                <artifactId>cglib-parent</artifactId>
-                <version>${cglib.version}</version>
-            </dependency>
+            
             
             <dependency>
                 <groupId>ch.qos.logback</groupId>

@@ -8,8 +8,7 @@
 ## 杂七杂八
 - [x] lombok
 - [ ] 尾递归
-- 长期
-    - [ ] Clojure
+- [x] Clojure
 - Nginx
 - GraphQL
     
@@ -32,7 +31,7 @@
         - [x] HashMap
     - [x] 泛型
     - [x] Iterator
-- [ ] [代理](https://www.jianshu.com/p/992dfcecff34)
+- [x] [代理](https://www.jianshu.com/p/992dfcecff34)
 - 线程
 - [x] 反射
 - [ ] 虚拟机
@@ -185,4 +184,4 @@
 
 ## 3.13
 
-- [ ] 
+- [x] 复合模式/介绍 MVC
