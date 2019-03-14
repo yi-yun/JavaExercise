@@ -9,4 +9,7 @@ public class PersonService {
     public Integer lengthOfName(String name) {
         return name.length();
     }
+    public String test() {
+        return "233333";
+    }
 }

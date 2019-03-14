@@ -1,5 +1,6 @@
 package com.yiyun.proxy.demo4;
 
+import net.sf.cglib.beans.ImmutableBean;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.FixedValue;
 import net.sf.cglib.proxy.MethodInterceptor;
@@ -37,6 +38,33 @@ public class App {
         });
         PersonService sample = (PersonService) enhancer.create();
         sample.sayHello("yiyun");
+        
+    }
+    @Test
+    public void fun3(){
+        Enhancer enhancer = new Enhancer();
+        enhancer.setSuperclass(PersonService.class);
+        enhancer.setCallback(new FixedValue() {
+            @Override
+            public Object loadObject() throws Exception {
+                return "Hello cglib";
+            }
+        });
+        PersonService proxy = (PersonService) enhancer.create();
+        System.out.println(proxy.test()+"");
+//        System.out.println(proxy.toString());
+        System.out.println(proxy.getClass());
+//        System.out.println(proxy.hashCode());
+    }
+    @Test
+    public void funBean(){
+        SampleBean sampleBean = new SampleBean();
+        sampleBean.setValue("yi-yun");
+        SampleBean immutableBean = (SampleBean) ImmutableBean.create(sampleBean);
+        System.out.println("immutableBean.getValue() = " + immutableBean.getValue());
+        sampleBean.setValue("Hello world, again");
+//        immutableBean.setValue("2333");
+        System.out.println("immutableBean.getValue() = " + immutableBean.getValue());
         
     }
 }

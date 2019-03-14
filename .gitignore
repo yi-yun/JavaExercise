@@ -17,3 +17,5 @@
 
 */target/
 target
+
+java_se/.a*
