@@ -28,15 +28,15 @@ public class App {
         enhancer.setSuperclass(PersonService.class);
         enhancer.setCallback(new MethodInterceptor() {
             @Override
-            public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-                System.out.println(methodProxy.invoke(o, objects)); 
-                return null;
+            public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
+                System.out.println("before method run...");
+                Object result = proxy.invokeSuper(obj, args);
+                System.out.println("after method run...");
+                return result;
             }
         });
-        PersonService proxy = (PersonService) enhancer.create();
-
-        String res = proxy.sayHello("yiyun");
-        System.out.println(res);
+        PersonService sample = (PersonService) enhancer.create();
+        sample.sayHello("yiyun");
         
     }
 }
