@@ -190,7 +190,7 @@
 - [x] 完成设计模式的阅读
 
 ## 3.17
-- [ ] Java8 实战
+- [x] Java8 实战 chap.1&2
 - [ ] JVM
 - [ ] Spring
 - [ ] leetcode
