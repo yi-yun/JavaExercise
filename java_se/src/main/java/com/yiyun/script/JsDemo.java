@@ -20,7 +20,7 @@ public class JsDemo {
         engine.eval("msg='yi-yun';");
         System.out.println(engine.get("msg"));
 
-        URL resource = JsDemo.class.getClassLoader().getResource("yiyun.js");
+        URL resource = JsDemo.class.getClassLoader().getResource("static/yiyun.js");
         FileReader fileReader = new FileReader(resource.getPath());
         engine.eval(fileReader);
         fileReader.close();

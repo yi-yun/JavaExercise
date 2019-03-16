@@ -3,11 +3,8 @@ package com.yiyun.java8.chap1;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Locale;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-
-import static java.util.Locale.filter;
 
 public class App {
     
