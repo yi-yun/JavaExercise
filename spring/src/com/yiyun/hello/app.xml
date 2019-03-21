@@ -6,6 +6,6 @@
     
 
 
-    <bean id="helloWorld" class="com.yiyun.arch.HelloWorld"/> 
+    <bean id="helloWorld" class="com.yiyun.hello.HelloWorld"/> 
 
 </beans>

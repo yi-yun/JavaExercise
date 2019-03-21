@@ -1,4 +1,4 @@
-package com.yiyun.arch;
+package com.yiyun.hello;
 
 
 import lombok.Setter;

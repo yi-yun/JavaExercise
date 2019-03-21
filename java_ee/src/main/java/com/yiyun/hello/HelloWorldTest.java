@@ -1,4 +1,4 @@
-package com.yiyun.arch;
+package com.yiyun.hello;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;
@@ -9,7 +9,7 @@ public class HelloWorldTest {
     @Test
     void test(){
         HelloWorld world=null;
-        BeanFactory factory= new XmlBeanFactory(new ClassPathResource("arch/app.xml"));
+        BeanFactory factory= new XmlBeanFactory(new ClassPathResource("applicationContext.xml"));
         world = (HelloWorld) factory.getBean("helloWorld");
         world.sayHello();
     }

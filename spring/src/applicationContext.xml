@@ -8,6 +8,6 @@
 
     <!--<bean id="helloWorld" class="com.yiyun.HelloWorld"/> -->
 
-    <import resource="classpath:com/yiyun/arch/app.xml"/>
+    <import resource="classpath:com/yiyun/hello/app.xml"/>
 
 </beans>

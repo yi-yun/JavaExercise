@@ -6,7 +6,7 @@
     
 
 
-    <!--<bean id="helloWorld" class="com.yiyun.HelloWorld"/> -->
+    <bean id="helloWorld" class="com.yiyun.hello.HelloWorld"/> 
 
 
 </beans>

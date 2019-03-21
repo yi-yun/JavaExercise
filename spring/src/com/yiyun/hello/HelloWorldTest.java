@@ -1,4 +1,4 @@
-package com.yiyun.arch;
+package com.yiyun.hello;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;
