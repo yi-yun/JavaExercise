@@ -16,7 +16,7 @@ public class TestHello {
     @Test
     void fun(){
         HelloWord world=null;
-        BeanFactory beanFactory= new XmlBeanFactory(new ClassPathResource("spring-config.xml"));
+        BeanFactory beanFactory= new XmlBeanFactory(new ClassPathResource("IoC.xml"));
         world=beanFactory.getBean("test",HelloWord.class);
         world.sayHello();
     }
