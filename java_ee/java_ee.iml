@@ -14,6 +14,10 @@
           <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/Setting/IoC.xml</file>
           <file>file://$MODULE_DIR$/src/main/java/com/yiyun/Spring/Test/TestTest-context.xml</file>
         </fileset>
+        <fileset id="fileset" name="Spring Application Context" removed="false" />
+        <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/yiyun/arch/app.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>
