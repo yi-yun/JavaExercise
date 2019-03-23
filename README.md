@@ -4,19 +4,17 @@
 
 主要是一些练习代码...
 
-# 待学  
+# 春招  
 ## 杂七杂八
 - [x] lombok
 - [ ] 尾递归
 - [x] Clojure
-- Nginx
-- GraphQL
-    
 
 ## 算法
 - [ ] 动态规划
 - [ ] 图
 - [x] 链表
+- [X] 树
 
 ## Java
 ### Java SE
@@ -51,7 +49,8 @@
 - SpringMVC
     - [ ] 视频
     - [ ] 看透SpringMVC  
-- Spring
+- [ ] Spring
+- [ ] Mybatis
 
 ## 计算机网络
 - [x] MQTT 协议
@@ -215,7 +214,11 @@
 - [ ] 内存模型以及高并发
 
 ## 3.23
-
 - [x] 刷题
 - [x] 内存模型 JMM
+
+## 3.24
+- [ ] Spring
+- [ ] JVM 
+- [ ] CSNotes/Linux 
 
