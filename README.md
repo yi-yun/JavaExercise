@@ -218,6 +218,7 @@
 - [x] 内存模型 JMM
 
 ## 3.24
+- [X] Junit Test
 - [ ] Spring
 - [ ] JVM 
 - [ ] CSNotes/Linux 
