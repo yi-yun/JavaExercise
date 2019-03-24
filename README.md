@@ -219,7 +219,6 @@
 
 ## 3.24
 - [X] Junit Test
-- [ ] Spring
-- [ ] JVM 
+- [x] JVM 
 - [ ] CSNotes/Linux 
 
