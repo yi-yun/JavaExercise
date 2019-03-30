@@ -4,5 +4,5 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--告诉 Spring 容器帮我配置什么-->
-    <bean id="Frame" class="com.yiyun.Spring.Test.TestFrame"/>
+    <bean id="Frame" class="com.yiyun.test.TestFrame"/>
 </beans>
