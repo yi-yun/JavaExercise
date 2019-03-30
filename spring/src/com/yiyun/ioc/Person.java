@@ -1,4 +1,4 @@
-package com.yiyun.Spring.IoC;
+package com.yiyun.ioc;
 
 public class Person {
     public Person(){

@@ -1,4 +1,4 @@
-package com.yiyun.Spring.IoC;
+package com.yiyun.ioc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.BeanFactory;
@@ -12,7 +12,7 @@ public class App {
 
     @Test
     public void fun(){
-        Resource resource=new ClassPathResource("com/yiyun/Spring/IoC/App.xml");
+        Resource resource=new ClassPathResource("com/yiyun/ioc/App-ioc.xml");
         BeanFactory beanFactory=new XmlBeanFactory(resource);
         System.out.println("-----------------------------");
         Person p=beanFactory.getBean("test",Person.class);
@@ -22,7 +22,7 @@ public class App {
 
     @Test
     public void fun1() {
-        ApplicationContext ctx=new ClassPathXmlApplicationContext("com/yiyun/Spring/IoC/App.xml");
+        ApplicationContext ctx=new ClassPathXmlApplicationContext("com/yiyun/ioc/App-ioc.xml");
         System.out.println("-----------------------------");
         Person p=ctx.getBean("test",Person.class);
         System.out.println(p);

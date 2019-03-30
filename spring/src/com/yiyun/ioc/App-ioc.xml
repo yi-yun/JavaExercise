@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--告诉 Spring 容器帮我配置什么-->
-    <bean id="test" class="com.yiyun.Spring.IoC.Person" >
+    <bean id="test" class="com.yiyun.ioc.Person" >
         <!--注入数据找 set 方法-->
     </bean>
 </beans>

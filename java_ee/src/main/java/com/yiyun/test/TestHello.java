@@ -16,14 +16,14 @@ public class TestHello {
     @Test
     void fun(){
         HelloWord world=null;
-        BeanFactory beanFactory= new XmlBeanFactory(new ClassPathResource("IoC.xml"));
+        BeanFactory beanFactory= new XmlBeanFactory(new ClassPathResource("ioc.xml"));
         world=beanFactory.getBean("test",HelloWord.class);
         world.sayHello();
     }
 
     @Test
     void fun1() throws Exception {
-        //IoC 原理（Reflect）
+        //ioc 原理（Reflect）
         String path="com.HelloWord";
         HelloWord world=null;
         //-----Spring---------
