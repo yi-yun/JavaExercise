@@ -32,7 +32,7 @@
 - [x] [代理](https://www.jianshu.com/p/992dfcecff34)
 - 线程
 - [x] 反射
-- [ ] 虚拟机
+- [x] 虚拟机
 - [ ] Java8 新特性
 
 ### Java EE
@@ -42,14 +42,12 @@
 - [ ] SpringSide
 - [ ] Jive 论坛
 
-
-
 ### 框架
 - J2EE Development without EJB
 - SpringMVC
     - [ ] 视频
     - [ ] 看透SpringMVC  
-- [ ] Spring
+- [x] Spring
 - [ ] Mybatis
 
 ## 计算机网络
@@ -239,5 +237,8 @@
 - [X] clone 
 
 ## 3.29
-- [ ] 并发
-- [ ] LeetCode
+- [X] JVM 
+
+## 3.30
+- [X] Spring
+- [x] JMM 
