@@ -9,7 +9,7 @@ public class HelloWorldTest {
     @Test
     void test(){
         HelloWorld world=null;
-        BeanFactory factory= new XmlBeanFactory(new ClassPathResource("application-context.xml"));
+        BeanFactory factory= new XmlBeanFactory(new ClassPathResource("applicationContext.xml"));
         world = (HelloWorld) factory.getBean("helloWorld");
         world.sayHello();
     }
