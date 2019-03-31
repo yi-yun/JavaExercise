@@ -15,7 +15,6 @@
         <module>../java_test</module>
         <module>../effective_java</module>
         <module>../design</module>
-        <module>../java_ee</module>
     </modules>
 
     <properties>

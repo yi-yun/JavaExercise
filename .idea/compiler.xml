@@ -7,7 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springee" />
         <module name="design" />
         <module name="test" />
         <module name="se" />
@@ -22,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="arch_test" target="1.8" />
       <module name="offer" target="1.8" />
+      <module name="springee" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
