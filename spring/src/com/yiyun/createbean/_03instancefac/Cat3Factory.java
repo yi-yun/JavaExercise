@@ -1,4 +1,4 @@
-package com.yiyun.Spring.CreateBean._03instancefac;
+package com.yiyun.createbean._03instancefac;
 
 public class Cat3Factory {
     public   Cat3 createInstance(){

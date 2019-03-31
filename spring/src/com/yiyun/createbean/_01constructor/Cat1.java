@@ -1,4 +1,4 @@
-package com.yiyun.Spring.CreateBean._01constructor;
+package com.yiyun.createbean._01constructor;
 
 public class Cat1 {
     private Cat1() {

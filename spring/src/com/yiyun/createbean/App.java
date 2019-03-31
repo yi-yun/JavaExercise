@@ -1,19 +1,16 @@
-package com.yiyun.Spring.CreateBean;
+package com.yiyun.createbean;
 
 
-import com.yiyun.Spring.CreateBean._01constructor.Cat1;
-import com.yiyun.Spring.CreateBean._02staticfac.Cat2;
-import com.yiyun.Spring.CreateBean._02staticfac.Cat2Factory;
-import com.yiyun.Spring.CreateBean._03instancefac.Cat3;
-import com.yiyun.Spring.CreateBean._03instancefac.Cat3Factory;
-import com.yiyun.Spring.CreateBean._04factorybean.Cat4;
-
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import com.yiyun.createbean._01constructor.Cat1;
+import com.yiyun.createbean._02staticfac.Cat2;
+import com.yiyun.createbean._02staticfac.Cat2Factory;
+import com.yiyun.createbean._03instancefac.Cat3;
+import com.yiyun.createbean._03instancefac.Cat3Factory;
+import com.yiyun.createbean._04factorybean.Cat4;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
+
 @SpringJUnitConfig
 public class App {
 

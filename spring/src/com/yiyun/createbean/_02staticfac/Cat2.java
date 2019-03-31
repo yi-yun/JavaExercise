@@ -1,4 +1,4 @@
-package com.yiyun.Spring.CreateBean._02staticfac;
+package com.yiyun.createbean._02staticfac;
 
 public class Cat2 {
     public Cat2() {
