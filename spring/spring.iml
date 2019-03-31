@@ -4,11 +4,19 @@
     <facet type="Spring" name="Spring">
       <configuration>
         <fileset id="fileset2" name="Spring Application Context" removed="false">
+          <dependency>fileset</dependency>
           <file>file://$MODULE_DIR$/src/com/yiyun/aop/App-aop.xml</file>
           <file>file://$MODULE_DIR$/src/com/yiyun/createbean/App-context.xml</file>
           <file>file://$MODULE_DIR$/src/com/yiyun/hello/App-hello.xml</file>
           <file>file://$MODULE_DIR$/src/com/yiyun/ioc/App-ioc.xml</file>
           <file>file://$MODULE_DIR$/src/com/yiyun/test/App-test.xml</file>
+          <file>file://$MODULE_DIR$/src/com/yiyun/lifecycle/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/com/yiyun/scope/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/com/yiyun/di/setterwired/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/com/yiyun/di/constructor/App-context.xml</file>
+          <file>file://$MODULE_DIR$/src/com/yiyun/di/xml_autowired/App-context.xml</file>
+        </fileset>
+        <fileset id="fileset" name="parent" removed="false">
           <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
         </fileset>
       </configuration>

@@ -3,9 +3,8 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!--告诉 Spring 容器帮我配置什么-->
-    <bean id="test" class="com.yiyun.Spring.Setting.HelloWord">
-        <!--注入数据找 set 方法-->
-        <property name="hostname" value="Michael"></property>
-    </bean>
+<!--XML 自动装配不推荐使用-->
+    <bean id="Person" class="com.yiyun.di.xml_autowired.Person" autowire="byName"/>
+    <bean id="Dog" class="com.yiyun.di.xml_autowired.Dog" />
+
 </beans>
