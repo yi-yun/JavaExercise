@@ -9,14 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="design" />
         <module name="test" />
+        <module name="java_se" />
         <module name="se" />
         <module name="effective" />
         <module name="effective_java" />
-        <module name="JavaExercise" />
-        <module name="java_se" />
+        <module name="java_test" />
         <module name="concurrent" />
         <module name="java_ee" />
-        <module name="java_test" />
+        <module name="JavaExercise" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
