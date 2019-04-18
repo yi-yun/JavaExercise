@@ -4,9 +4,11 @@ package com.yiyun.scope;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 @SpringJUnitConfig
+@ContextConfiguration({"classpath:applicationContext.xml"})
 public class App {
 
 
