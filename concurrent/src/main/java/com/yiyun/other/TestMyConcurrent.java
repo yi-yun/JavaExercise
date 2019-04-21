@@ -32,7 +32,7 @@ public class TestMyConcurrent {
         thread1.join();
         thread2.join();
         thread3.join();
-        thread4.join();
+//        thread4.join();
         System.out.println(myArrayBlockingQueue.size());
     }
 }
