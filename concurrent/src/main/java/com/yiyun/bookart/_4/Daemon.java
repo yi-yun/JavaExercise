@@ -13,7 +13,8 @@ public class Daemon {
         @Override
         public void run() {
             try {
-                SleepUtils.second(10);
+                //Don't evil
+                SleepUtils.second(100);
             }finally {
                 System.out.println("DaemonThread finally run.");
             }
