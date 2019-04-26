@@ -54,10 +54,36 @@
 - [x] MQTT 协议
 
 ## 数据库
+- [ ] MySQL 必知必会
+
+## 书籍
+
+- Java 程序员面试宝典
+- Netty 实战
+- Java8 实战
+- 并发
+    - Java 并发编程实战
+    - Java 并发编程的艺术
+- JVM
+    - 深入理解 Java 虚拟机
+- 框架
+    - Spring 实战
+    - J2EE Development without EJB
+    - 看透SpringMVC
+    - SpringBoot 浪潮颠覆
+    - 深入理解 Mybatis
+
+
+
 
 # 记录
+
+## 4.27
+- Java 并发变成第六章
+- Spring
+
 ## 4.26
-### 目标
+
 - Java 并发编程的艺术第五章结束
 - 动态规划
 
