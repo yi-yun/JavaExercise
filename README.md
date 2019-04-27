@@ -73,14 +73,11 @@
     - SpringBoot 浪潮颠覆
     - 深入理解 Mybatis
 
-
-
-
 # 记录
 
 ## 4.27
-- Java 并发变成第六章
-- Spring
+- Java 并发编程第六章
+- Java 程序员面试宝典 第一、二章
 
 ## 4.26
 
