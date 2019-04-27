@@ -1,4 +1,4 @@
-package com.yiyun.video.pratice;
+package com.yiyun.jvm._3;
 
 public class _3_5ThisEscape2 {
 
