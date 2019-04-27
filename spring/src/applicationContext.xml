@@ -9,5 +9,5 @@
     <import resource="classpath:com/yiyun/hello/App-hello.xml"/>
     <import resource="classpath:com/yiyun/lifecycle/lifecycle-App.xml"/>
     <import resource="classpath:com/yiyun/scope/scope-App.xml"/>
-    <import resource="classpath:com/yiyun/test/test-App.xml"/>
+    <import resource="classpath:com/yiyun/test/test-App.xml"/> 
 </beans>
