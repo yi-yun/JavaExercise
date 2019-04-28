@@ -74,7 +74,17 @@
     - 深入理解 Mybatis
 
 # 记录
+## 4.29
+- Python 算法
+- Netty 实战
 
+## 4.28
+> 复习效率真的差
+- Spring 实战
+    - Spring profile
+    - Spring AOP
+    - Spring TX
+    
 ## 4.27
 - Java 并发编程第六章
 - Java 程序员面试宝典 第一、二章
