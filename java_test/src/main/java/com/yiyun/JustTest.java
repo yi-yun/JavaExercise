@@ -14,5 +14,8 @@ public class JustTest {
 
     public static void main(String[] args) {
         JustTest justTest = new JustTest();
+        System.out.println("-----------------------"); 
+        int i = Runtime.getRuntime().availableProcessors();
+        System.out.println("i = " + i);
     }
 }
