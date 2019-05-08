@@ -12,7 +12,7 @@ public class Tree {
         if(root.left == null && root.right == null){
             return root;
         }
-        
+        //交换
         TreeNode temp = root.right;
         root.right = root.left;
         root.left = temp;
