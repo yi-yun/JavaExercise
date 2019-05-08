@@ -14,17 +14,16 @@ import java.io.FileOutputStream;
 import java.io.PrintWriter;
 
 public class XMLParse {
-    @Test
-    public void fun1() throws Exception{
+    public void funParse(String tagName,String attribute) throws Exception{
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         DocumentBuilder db = dbf.newDocumentBuilder();
         String path = getClass().getResource("/Test.xml").getPath();
         //将xml文件解析
         Document document = db.parse(path);
-        NodeList nodeIf = document.getElementsByTagName("if");
+        NodeList nodeIf = document.getElementsByTagName(tagName);
         for (int i = 0; i <nodeIf.getLength() ; i++) {
             NamedNodeMap attributes = nodeIf.item(i).getAttributes();
-            Node node = attributes.getNamedItem("test");
+            Node node = attributes.getNamedItem(attribute);
             String nodeValue = node.getNodeValue().replaceAll(">","&lt;");
             String s = nodeValue.replaceAll("<", "&gt;");
             node.setNodeValue(s);
@@ -41,6 +40,10 @@ public class XMLParse {
         StreamResult result = new StreamResult(pw);
         //将xml写到文件中
         transformer.transform(source, result);
+    }
+    @Test
+    public void fun() throws Exception{
+        funParse("if","test");
     }
     @Test
     public void fun2(){
