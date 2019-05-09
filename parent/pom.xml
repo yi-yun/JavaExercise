@@ -17,6 +17,7 @@
         <module>../design</module>
         <module>../concurrent</module>
         <module>../offer</module>
+        <module>../yi-yun</module>
     </modules>
 
     <properties>
