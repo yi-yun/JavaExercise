@@ -18,6 +18,7 @@
         <module>../concurrent</module>
         <module>../offer</module>
         <module>../yi-yun</module>
+        <module>../test_module</module>
     </modules>
 
     <properties>
