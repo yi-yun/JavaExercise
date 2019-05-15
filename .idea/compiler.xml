@@ -9,21 +9,21 @@
         <outputRelativeToContentRoot value="true" />
         <module name="test" />
         <module name="design" />
-        <module name="offer" />
+        <module name="java_se" />
         <module name="se" />
         <module name="effective" />
         <module name="effective_java" />
-        <module name="JavaExercise" />
-        <module name="java_se" />
+        <module name="java_test" />
         <module name="concurrent" />
         <module name="java_ee" />
-        <module name="java_test" />
+        <module name="JavaExercise" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="arch_test" target="1.8" />
       <module name="offer" target="1.8" />
       <module name="springee" target="1.8" />
+      <module name="test-yiyun" target="1.8" />
       <module name="test_module" target="1.8" />
       <module name="yi-yun" target="1.8" />
     </bytecodeTargetLevel>
