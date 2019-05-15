@@ -16,6 +16,8 @@
         <module>../effective_java</module>
         <module>../design</module>
         <module>../concurrent</module>
+        <module>../offer</module>
+        <module>../23wew</module>
 
     </modules>
 
