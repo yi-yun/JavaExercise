@@ -22,4 +22,12 @@ public class App {
 
         System.out.println("body.head.face == body1.head.face : " +  (body.head.face == body1.head.face));
     }
+    @Test
+    public void fun3() throws CloneNotSupportedException{
+        Person person= new Person(23,"zhang");
+        Person clone = (Person) person.clone();
+        clone.setName("2333");
+        System.out.println("person = " + person);
+        System.out.println("clone = " + clone);
+    }
 }
