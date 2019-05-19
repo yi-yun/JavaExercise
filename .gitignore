@@ -28,3 +28,4 @@ java_se/~/
 /concurrent/.attach*
 /out/
 /java_test/.attach_pid*
+/MySingleton.txt
