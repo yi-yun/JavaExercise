@@ -145,22 +145,26 @@ class SingleHolderSerializable implements Serializable {
 
 }
 
-class SingleResolve implements Serializable{
+class SingleResolve implements Serializable {
 
     private static final long serialVersionUID = 8396313380667197389L;
-    private static class MySingletonHandler{
+
+    private static class MySingletonHandler {
         private static SingleResolve instance = new SingleResolve();
     }
 
-    private SingleResolve(){}
+    private SingleResolve() {
+    }
 
     public static SingleResolve getInstance() {
         return MySingletonHandler.instance;
     }
+
     protected Object readResolve() throws ObjectStreamException {
         System.out.println("调用了readResolve方法！");
         return MySingletonHandler.instance;
     }
+
     public static void main(String[] args) {
         SingleResolve singleton = SingleResolve.getInstance();
 
@@ -195,6 +199,36 @@ class SingleResolve implements Serializable{
         }
 
     }
+    
+}
+class SingleStatic{
+    private static SingleStatic instance=null;
+    static {
+        instance=new SingleStatic();
+    }
+    private SingleStatic(){
+        System.out.println("eager");
+    }
+    public static SingleStatic getInstance(){
+        return instance;
+    }
 
+    public static void main(String[] args) {
+        
+    }
+}
 
+enum EnumFactory{
+    singletonFactory;
+    private SingleEnum instance;
+    private EnumFactory(){
+        instance=new SingleEnum();
+    }
+    public SingleEnum getInstance(){
+        return instance;
+    }
+
+}
+class SingleEnum{
+    public SingleEnum(){}
 }
