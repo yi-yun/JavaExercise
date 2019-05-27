@@ -2,7 +2,7 @@ package book.offer;
 
 import org.junit.Test;
 
-public class _3_findDupicate {
+public class _3_FindDupicate {
     public int findDuplicate(int[] nums) {
         int fast = 0, slow = 0;
         while (true) {
