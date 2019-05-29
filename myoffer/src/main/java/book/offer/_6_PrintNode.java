@@ -1,7 +1,6 @@
 package book.offer;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import org.junit.Test;
 
 import java.util.Stack;
