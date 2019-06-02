@@ -24,4 +24,17 @@ public class BuildingStream {
             .sorted()
             .forEach(System.out::println);
     }
+    @Test
+    public void funValue(){
+        // Stream.of
+        Stream.of("Java 8", "Lambdas", "In", "Action")
+            .map(String::toUpperCase).forEach(System.out::println);
+
+        // Stream.empty
+        Stream<String> emptyStream = Stream.empty();
+
+        // Arrays.stream
+        int[] numbers = {2, 3, 5, 7, 11, 13};
+        System.out.println(Arrays.stream(numbers).sum());
+    }
 }
