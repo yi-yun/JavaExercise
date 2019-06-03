@@ -22,6 +22,7 @@ public class JustTest {
     }
     @Test
     public void fun1(){
+        long i = 100_000_000_000L;
         float v = 9.1f;
         float v1 = 9.000f;
         System.out.println( v%1==0);
