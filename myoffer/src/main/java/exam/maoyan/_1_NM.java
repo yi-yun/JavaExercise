@@ -1,4 +1,4 @@
-package maoyan;
+package exam.maoyan;
 
 import org.junit.Test;
 
