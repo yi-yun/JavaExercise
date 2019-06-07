@@ -40,6 +40,7 @@ public class JustTest {
     //滑稽的大佬
     @Test
     public void fun2() {
+        System.out.println( 1==1);
         System.out.println(129 == 129);
     }
 
