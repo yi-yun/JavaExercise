@@ -43,5 +43,18 @@ public class JustTest {
         System.out.println( 1==1);
         System.out.println(129 == 129);
     }
+    
+    @Test
+    public void fun3(){
+        new Thread(()-> System.out.println("hello = " ),"hello");
+        new RunnableTest().run();
+    }
 
+}
+class RunnableTest implements Runnable{
+
+    @Override
+    public void run() {
+        
+    }
 }
