@@ -1,8 +1,11 @@
 package leetcode;
 
+import lombok.AllArgsConstructor;
+
 import java.util.Arrays;
 
 //Definition for a binary tree node.
+@AllArgsConstructor
 class TreeNode {
      int val;
      TreeNode left;
