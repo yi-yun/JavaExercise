@@ -5,7 +5,7 @@ public class ThreadThisEscape {
     public ThreadThisEscape(){
         new Thread(new EscapeRunnable()).start();
         weight=1;
-        // 模拟构造函数耗时
+        // 模拟构造函数耗时2
         for (int i = 0; i < 1000000; i++)
         {
 
