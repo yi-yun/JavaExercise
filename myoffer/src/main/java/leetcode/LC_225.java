@@ -3,7 +3,7 @@ package leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Lc_225 {
+public class LC_225 {
 }
 class MyStack {
 
