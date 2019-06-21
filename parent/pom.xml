@@ -17,6 +17,7 @@
         <module>../design</module>
         <module>../concurrent</module>
         <module>../myoffer</module>
+        <module>../MysqlPractice</module>
 
     </modules>
 
