@@ -64,7 +64,8 @@ SELECT job,SUM(sal)
 FROM exam.emp
 WHERE job not IN ('销售员') 
 GROUP by job
-HAVING SUM(sal)>50000;
+HAVING SUM(sal)>50000
+order by sum(sal) asc ;
 -- 7. 有奖金的工种。
 SELECT job
 FROM exam.emp
