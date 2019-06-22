@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.tree;
 
 public class LC_700 {
     public TreeNode searchBST(TreeNode root, int val) {

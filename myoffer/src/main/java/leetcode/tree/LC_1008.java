@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.tree;
 
 public class LC_1008 {
     public TreeNode bstFromPreorder(int[] preorder) {

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.tree;
 
 public class LC_104 {
     public int maxDepth(TreeNode root) {

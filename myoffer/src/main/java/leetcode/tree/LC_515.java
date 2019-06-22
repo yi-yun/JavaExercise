@@ -1,6 +1,9 @@
-package leetcode;
+package leetcode.tree;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 public class LC_515 {
     public List<Integer> largestValues(TreeNode root) {
@@ -21,5 +24,4 @@ public class LC_515 {
         }
         return arrayList;
     }
-    
 }
