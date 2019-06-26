@@ -1,11 +1,15 @@
 package leetcode.array;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashSet;
 
 public class LC_349 {
+    /**
+     * 
+     * @param nums1
+     * @param nums2
+     * @return
+     */
     public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> hashSet = new HashSet<>();
         ArrayList<Integer> list = new ArrayList<>();
