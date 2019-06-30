@@ -7,7 +7,7 @@ public class LC_349 {
     /**
      * @param nums1
      * @param nums2
-     * @return int[]
+     * @return int[]2
      */
     public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> hashSet = new HashSet<>();
