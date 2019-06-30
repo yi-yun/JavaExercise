@@ -1,5 +1,9 @@
 package com.yiyun;
 
+import org.junit.Test;
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -12,5 +16,11 @@ public class Main {
             b = cin.nextInt();
             System.out.println(a + b);
         }
+    }
+    @Test
+    public void fun(){
+        double v = 3.5;
+        DecimalFormat format = new DecimalFormat("0.00");
+        System.out.println(format.format(v));
     }
 }
