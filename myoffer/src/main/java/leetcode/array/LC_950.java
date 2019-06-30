@@ -21,8 +21,9 @@ public class LC_950 {
         }
         return result;
     }
+
     @Test
-    public void fun(){
+    public void fun() {
         int[] arrays = {17, 13, 11, 2, 3, 5, 7};
         int[] res = deckRevealedIncreasing(arrays);
         System.out.println("Arrays.toString(res) = " + Arrays.toString(res));
