@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Person implements Cloneable{
     private int age;
-    private String name;
+    String name;
 
     @Override
     protected Object clone() throws CloneNotSupportedException {

@@ -26,7 +26,7 @@ public class App {
     public void fun3() throws CloneNotSupportedException{
         Person person= new Person(23,"zhang");
         Person clone = (Person) person.clone();
-        clone.setName("2333");
+        clone.name="yiyun";
         System.out.println("person = " + person);
         System.out.println("clone = " + clone);
     }
