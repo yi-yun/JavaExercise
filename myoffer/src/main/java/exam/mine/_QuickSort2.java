@@ -7,7 +7,9 @@ import java.util.Collections;
 
 public class _QuickSort2 {
     public void quickSort(int[] a, int left, int right) {
-        if (left > right) return;
+        if (left > right) {
+            return;
+        }
         int t = part(a, left, right);
         quickSort(a, left, t - 1);
         quickSort(a, t + 1, right);
