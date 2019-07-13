@@ -26,8 +26,9 @@ public class _9_1Fibonacci {
         }
         return result;
     }
+
     @Test
-    public void fun(){
+    public void fun() {
         long fibonacci = fibonacci(4);
     }
 }
