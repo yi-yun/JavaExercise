@@ -27,7 +27,6 @@ class MyQueue {
     public MyQueue() {
         stack1 = new Stack<>();
         stack2 = new Stack<>();
-        ;
     }
 
     /**
