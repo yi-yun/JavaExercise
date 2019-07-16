@@ -81,7 +81,7 @@ public class _1_ZeroOnePack {
         }
         for (int i = 1; i < n; i++) {
             for (int j = 0; j <= w; j++) {
-                if (states[i - 1][j] > 0) {
+                if (states[i - 1][j] >= 0) {
                     states[i][j] = states[i - 1][j];
                 }
             }
@@ -124,8 +124,30 @@ public class _1_ZeroOnePack {
     }
 
 
+    public void packOptimizationTest(int[] weight, int[] values, int n, int w) {
+        int[] states = new int[w + 1];
+        states[0] = 0;
+        if (weight[0] <= w){
+            states[weight[0]] = values[0];
+        }
+        for (int i = 1; i < n; i++) {
+            for (int j = w - weight[i]; j >= 0; j--) {
+                int v = states[j] + values[i];
+                if (v > states[j + weight[i]]) {
+                    states[j + weight[i]] = v;
+                }
+            }
+        }
+    }
+    
+    @Test
+    public void fun5(){
+        //尽量装满
+        packOptimizationTest(new int[]{2, 2, 4, 6, 3}, new int[]{3, 4, 8, 9, 6}, 5, 9);
+    }
     @Test
     public void fun4() {
+        //恰好装满
         packOptimization(new int[]{2, 2, 4, 6, 3}, new int[]{3, 4, 8, 9, 6}, 5, 9);
     }
 
