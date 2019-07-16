@@ -7,6 +7,8 @@ import org.junit.Test;
  * @description: 01 背包问题
  * 有 N 件物品和一个容量为 V 的背包。放入第 i 件物品耗费的费用是 Ci ,得到的
  * 价值是 Wi 。求解将哪些物品装入背包可使价值总和最大。
+ * 恰好装满的最大值   初始化为 0 -1……
+ * 尽可能装满的最大值 00000000……
  * @author: yi-yun
  * @create: 2019-07-14 20:31
  **/
@@ -22,7 +24,9 @@ public class _1_ZeroOnePack {
     public void pack(int[] weight, int n, int w) {
         boolean[][] states = new boolean[n][w + 1];
         states[0][0] = true;
-        states[0][weight[0]] = true;
+        if (weight[0] <= w) {
+            states[0][weight[0]] = true;
+        }
         for (int i = 1; i < n; i++) {
             //j+weight[i],j
             for (int j = 0; j < w + 1; j++) {
@@ -44,7 +48,9 @@ public class _1_ZeroOnePack {
     public void packOptimization(int[] weight, int n, int w) {
         boolean[] states = new boolean[w + 1];
         states[0] = true;
-        states[weight[0]] = true;
+        if (weight[0] <= w) {
+            states[weight[0]] = true;
+        }
         for (int i = 1; i < n; i++) {
             for (int j = w - weight[i]; j >= 0; j--) {
                 if (states[j]) {
@@ -64,15 +70,15 @@ public class _1_ZeroOnePack {
      */
     public void pack(int[] weight, int[] values, int n, int w) {
         int[][] states = new int[n][w + 1];
-        //恰好装满的最大值   初始化为 0 -1……
-        //尽可能装满的最大值 00000000……
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < w + 1; j++) {
-                states[i][j]=-1;
+                states[i][j] = -1;
             }
         }
         states[0][0] = 0;
-        states[0][weight[0]] = values[0];
+        if (weight[0] <= w) {
+            states[0][weight[0]] = values[0];
+        }
         for (int i = 1; i < n; i++) {
             for (int j = 0; j <= w; j++) {
                 if (states[i - 1][j] > 0) {
@@ -86,6 +92,41 @@ public class _1_ZeroOnePack {
                 }
             }
         }
+    }
+
+    /**
+     * weight 物品重量，values 物品价值， n 物品总数，w 背包重量
+     *
+     * @param weight
+     * @param values
+     * @param n
+     * @param w
+     */
+    public void packOptimization(int[] weight, int[] values, int n, int w) {
+        int[] states = new int[w + 1];
+        for (int i = 0; i < states.length; i++) {
+            states[i] = -1;
+        }
+        states[0] = 0;
+        if (weight[0] <= w){
+            states[weight[0]] = values[0];
+        }
+        for (int i = 1; i < n; i++) {
+            for (int j = w - weight[i]; j >= 0; j--) {
+                if (states[j] >= 0) {
+                    int v = states[j] + values[i];
+                    if (v > states[j + weight[i]]) {
+                        states[j + weight[i]] = v;
+                    }
+                }
+            }
+        }
+    }
+
+
+    @Test
+    public void fun4() {
+        packOptimization(new int[]{2, 2, 4, 6, 3}, new int[]{3, 4, 8, 9, 6}, 5, 9);
     }
 
     @Test
