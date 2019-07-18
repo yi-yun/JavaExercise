@@ -132,10 +132,10 @@ public class _1_ZeroOnePack {
         }
         for (int i = 1; i < n; i++) {
             for (int j = w - weight[i]; j >= 0; j--) {
-                int v = states[j] + values[i];
-                if (v > states[j + weight[i]]) {
-                    states[j + weight[i]] = v;
-                }
+                    int v = states[j] + values[i];
+                    if (v > states[j + weight[i]]) {
+                        states[j + weight[i]] = v;
+                    }
             }
         }
     }
