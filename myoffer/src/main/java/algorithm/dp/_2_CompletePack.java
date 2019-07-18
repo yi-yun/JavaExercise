@@ -26,17 +26,19 @@ public class _2_CompletePack {
         }*/
 
         for (int i = 0; i < n; i++) {
-            for (int j = weight[i]; j <= w ; j++) {
-                states[j] = Integer.max(states[j], states[j-weight[i]] + values[i]);
+            for (int j = 0; j <= w - weight[i]; j++) {
+                states[j + weight[i]] = Integer.max(states[j + weight[i]], states[j] + values[i]);
             }
+            /*for (int j = weight[i]; j <= w; j++) {
+                states[j] = Math.max(states[j - weight[i]] + values[i], states[j]);
+            }*/
         }
     }
 
-    //    4,1,2,3,4
-//    5,2,4,4,5
+
     @Test
     public void fun() {
-        pack(new int[]{5,3,4}, new int[]{20,10,12}, 4, 35);
+        pack(new int[]{5, 3, 4}, new int[]{20, 10, 12}, 3, 35);
     }
 
 }
