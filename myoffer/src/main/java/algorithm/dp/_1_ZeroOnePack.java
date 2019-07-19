@@ -15,6 +15,7 @@ import org.junit.Test;
 public class _1_ZeroOnePack {
     /**
      * weight 物品重量， n 物品总数，w 背包重量
+     * 恰好装满 2D
      *
      * @param weight
      * @param n
@@ -45,6 +46,7 @@ public class _1_ZeroOnePack {
 
     }
 
+    //恰好装满 1D
     public void packOptimization(int[] weight, int n, int w) {
         boolean[] states = new boolean[w + 1];
         states[0] = true;
@@ -62,6 +64,7 @@ public class _1_ZeroOnePack {
 
     /**
      * weight 物品重量，values 物品价值， n 物品总数，w 背包重量
+     * 恰好装满 2D
      *
      * @param weight
      * @param values
@@ -96,6 +99,7 @@ public class _1_ZeroOnePack {
 
     /**
      * weight 物品重量，values 物品价值， n 物品总数，w 背包重量
+     * 恰好装满 1D
      *
      * @param weight
      * @param values
@@ -108,7 +112,7 @@ public class _1_ZeroOnePack {
             states[i] = -1;
         }
         states[0] = 0;
-        if (weight[0] <= w){
+        if (weight[0] <= w) {
             states[weight[0]] = values[0];
         }
         for (int i = 1; i < n; i++) {
@@ -124,27 +128,25 @@ public class _1_ZeroOnePack {
     }
 
 
+    //尽量装满
     public void packOptimizationTest(int[] weight, int[] values, int n, int w) {
         int[] states = new int[w + 1];
-        states[0] = 0;
-        if (weight[0] <= w){
-            states[weight[0]] = values[0];
-        }
-        for (int i = 1; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             for (int j = w - weight[i]; j >= 0; j--) {
-                    int v = states[j] + values[i];
-                    if (v > states[j + weight[i]]) {
-                        states[j + weight[i]] = v;
-                    }
+                int v = states[j] + values[i];
+                if (v > states[j + weight[i]]) {
+                    states[j + weight[i]] = v;
+                }
             }
         }
     }
-    
+
     @Test
-    public void fun5(){
+    public void fun5() {
         //尽量装满
         packOptimizationTest(new int[]{2, 2, 4, 6, 3}, new int[]{3, 4, 8, 9, 6}, 5, 9);
     }
+
     @Test
     public void fun4() {
         //恰好装满
