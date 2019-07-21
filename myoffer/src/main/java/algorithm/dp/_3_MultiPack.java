@@ -53,7 +53,14 @@ public class _3_MultiPack {
 
     }
 
-    
+    /**
+     * 
+     * @param cost 要选的物品的重量
+     * @param value 要选的物品的价值
+     * @param amount 要选的物品的数目
+     * @param dp 状态方程
+     * @param m 总重量
+     */
     private void MultiPack(int cost, int value, int amount, int[] dp, int m) {
         //完全背包
         if (cost * amount >= m) {
