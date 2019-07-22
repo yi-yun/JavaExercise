@@ -16,7 +16,7 @@ public class T21_MyContainer2<T> {
     private Condition producer = lock.newCondition();
     private Condition consumer = lock.newCondition();
 
-    public  void put(T t) {
+    public void put(T t) {
         try {
             lock.lock();
             while (count == MAX) {
@@ -32,7 +32,7 @@ public class T21_MyContainer2<T> {
         }
     }
 
-    public  T get() {
+    public T get() {
         T remove = null;
         try {
             lock.lock();
