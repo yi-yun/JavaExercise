@@ -24,11 +24,11 @@ public class TicketWindow implements Runnable {
             }
             ticket--;
             Random random = new Random();
-//            try {
-//                Thread.sleep(1000 * random.nextInt(3));
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
+            try {
+                Thread.sleep(1000 * random.nextInt(3));
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             System.out.println(Thread.currentThread().getName() + "卖出一张火车票,还剩" + ticket + "张");
             rt.unlock();
         }
