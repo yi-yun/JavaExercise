@@ -1,9 +1,5 @@
 package leetcode.array;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.stream.Stream;
-
 public class LC_905 {
     public int[] sortArrayByParity(int[] A) {
         int z=0;

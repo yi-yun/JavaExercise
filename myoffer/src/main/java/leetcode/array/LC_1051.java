@@ -2,10 +2,6 @@ package leetcode.array;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-
 /**
  * @class: LC_1051
  * @description: TODO
