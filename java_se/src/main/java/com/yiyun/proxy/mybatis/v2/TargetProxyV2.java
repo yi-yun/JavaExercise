@@ -1,4 +1,6 @@
-package com.yiyun.proxy.mybatis;
+package com.yiyun.proxy.mybatis.v2;
+
+import com.yiyun.proxy.mybatis.Target;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -9,13 +11,13 @@ import java.lang.reflect.Method;
  * @author: yi-yun
  * @create: 2019-08-03 23:35
  **/
-public class TargetProxy implements InvocationHandler {
+public class TargetProxyV2 implements InvocationHandler {
 
     private Target target;
 
-    private MyInterceptor myInterceptor;
+    private MyInterceptorV2 myInterceptor;
 
-    public TargetProxy(Target target, MyInterceptor myInterceptor) {
+    public TargetProxyV2(Target target, MyInterceptorV2 myInterceptor) {
         this.target = target;
         this.myInterceptor = myInterceptor;
     }

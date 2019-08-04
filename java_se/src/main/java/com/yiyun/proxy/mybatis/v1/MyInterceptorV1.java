@@ -1,4 +1,4 @@
-package com.yiyun.proxy.mybatis;
+package com.yiyun.proxy.mybatis.v1;
 
 /**
  * @class: MyInterceptor
@@ -6,6 +6,6 @@ package com.yiyun.proxy.mybatis;
  * @author: yi-yun
  * @create: 2019-08-03 23:38
  **/
-public interface MyInterceptor {
-    Object interceptor(MyInvocation invocation);
+public interface MyInterceptorV1 {
+    void interceptor();
 }

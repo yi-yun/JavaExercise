@@ -1,4 +1,4 @@
-package com.yiyun.proxy.mybatis;
+package com.yiyun.proxy.mybatis.v2;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
