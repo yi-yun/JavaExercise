@@ -28,7 +28,7 @@ public class Sorts {
     }
 
     @Test
-    public void funbubbleSort() {
+    public void funBubbleSort() {
         int[] a = {4, 5, 6, 3, 2, 1};
         bubbleSort(a);
         System.out.println(Arrays.toString(a));
@@ -52,7 +52,7 @@ public class Sorts {
     }
 
     @Test
-    public void funinsertSort() {
+    public void funInsertSort() {
         int[] a = {4, 5, 6, 3, 2, 1};
         insertSort(a);
         System.out.println(Arrays.toString(a));
@@ -75,7 +75,7 @@ public class Sorts {
     }
 
     @Test
-    public void funselectionSort() {
+    public void funSelectionSort() {
         int[] a = {4, 5, 6, 3, 2, 1};
         selectionSort(a);
         System.out.println(Arrays.toString(a));
@@ -115,7 +115,7 @@ public class Sorts {
     }
 
     @Test
-    public void funquickSort() {
+    public void funQuickSort() {
         int[] a = {4, 5, 6, 3, 2, 1};
 
         quickSort(a);
