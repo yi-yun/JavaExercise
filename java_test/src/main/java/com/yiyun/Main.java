@@ -17,10 +17,17 @@ public class Main {
             System.out.println(a + b);
         }
     }
+
     @Test
-    public void fun(){
+    public void fun() {
         double v = 3.5;
         DecimalFormat format = new DecimalFormat("0.00");
         System.out.println(format.format(v));
+    }
+
+    @Test
+    public void fun1() {
+        double test = 2.3;
+        System.out.printf("%.2f", test);
     }
 }

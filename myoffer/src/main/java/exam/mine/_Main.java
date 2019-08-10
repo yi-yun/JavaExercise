@@ -4,8 +4,8 @@ import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
- * @class: _MAin
- * @description: TODO
+ * @class: _Main
+ * @description: test beike
  * @author: yi-yun
  * @create: 2019-08-10 11:03
  **/

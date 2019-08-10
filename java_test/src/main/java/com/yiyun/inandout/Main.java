@@ -20,14 +20,15 @@ public class Main {
         System.out.println(nextInt1);
         System.out.println(nextInt2);
     }
+
     @Test
     public void fun() throws ParseException {
         SimpleDateFormat simp = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        
+
         Date parse = simp.parse("2014-08-11 21:00:00.000");
-        System.out.println("parse = "+parse);
+        System.out.println("parse = " + parse);
         LocalDateTime now = LocalDateTime.now();
-        
+
         System.out.println("now = " + now);
     }
 }
