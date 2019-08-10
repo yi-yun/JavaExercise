@@ -1,7 +1,6 @@
 package com.yiyun;
 
 import org.junit.Test;
-import org.omg.CORBA.PUBLIC_MEMBER;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;

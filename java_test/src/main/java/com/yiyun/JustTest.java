@@ -40,21 +40,22 @@ public class JustTest {
     //滑稽的大佬
     @Test
     public void fun2() {
-        System.out.println( 1==1);
+        System.out.println(1 == 1);
         System.out.println(129 == 129);
     }
-    
+
     @Test
-    public void fun3(){
-        new Thread(()-> System.out.println("hello = " ),"hello");
+    public void fun3() {
+        new Thread(() -> System.out.println("hello = "), "hello");
         new RunnableTest().run();
     }
 
 }
-class RunnableTest implements Runnable{
+
+class RunnableTest implements Runnable {
 
     @Override
     public void run() {
-        
+
     }
 }
