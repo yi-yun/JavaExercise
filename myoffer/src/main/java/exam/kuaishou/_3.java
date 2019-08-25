@@ -3,7 +3,6 @@ package exam.kuaishou;
 import org.junit.Test;
 
 import java.util.Scanner;
-import java.util.StringJoiner;
 
 /**
  * @class: _3
@@ -19,7 +18,6 @@ public class _3 {
         String a = fil(s1);
         String b = fil(s2);
         cal(a, b);
-
     }
 
     private static void cal(String a, String b) {
@@ -43,12 +41,10 @@ public class _3 {
                 i++;
             }
         }
-
         while (cnt < b.length()) {
             sb.append(b.charAt(cnt));
             cnt++;
         }
-
         StringBuilder result = new StringBuilder();
         String input = sb.toString();
         for (i = 0; i < input.length(); i++) {
@@ -57,10 +53,7 @@ public class _3 {
             }
             result.append(input.charAt(i));
         }
-
         System.out.println(result.toString());
-
-
     }
 
     private static String fil(String s) {
