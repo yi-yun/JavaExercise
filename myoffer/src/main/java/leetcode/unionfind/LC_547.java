@@ -27,7 +27,7 @@ public class LC_547 {
     public static class UnionFindSet {
         public HashMap<Node, Node> fatherMap;
         public HashMap<Node, Integer> sizeMap;
-
+        private int cnt;
         public UnionFindSet(List<Node> nodes) {
             makeSets(nodes);
         }
@@ -35,6 +35,7 @@ public class LC_547 {
         private void makeSets(List<Node> nodes) {
             fatherMap = new HashMap<>();
             sizeMap = new HashMap<>();
+            cnt = nodes.size();
             fatherMap.clear();
             sizeMap.clear();
             for (Node node : nodes) {
@@ -72,6 +73,7 @@ public class LC_547 {
                     fatherMap.put(bHead, aHead);
                     sizeMap.put(aHead, aSetSize + bSetSize);
                 }
+                cnt--;
             }
         }
 
@@ -93,12 +95,7 @@ public class LC_547 {
                 }
             }
         }
-        HashSet<Node> hashSet = new HashSet<>();
-        for (Node node : nodes) {
-            Node head = set.findHead(node);
-            hashSet.add(head);
-        }
-        return hashSet.size();
+        return set.cnt;
     }
 
     @Test

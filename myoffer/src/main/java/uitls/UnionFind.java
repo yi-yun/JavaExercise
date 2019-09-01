@@ -15,8 +15,9 @@ public class UnionFind {
     }
 
     public static class UnionFindSet {
-        public HashMap<Node, Node> sonDadMap;
-        public HashMap<Node, Integer> nodeSizeMap;
+        private HashMap<Node, Node> sonDadMap;
+        private HashMap<Node, Integer> nodeSizeMap;
+        private int cnt;
 
         public UnionFindSet(List<Node> nodes) {
             makeSets(nodes);
@@ -25,6 +26,7 @@ public class UnionFind {
         private void makeSets(List<Node> nodes) {
             sonDadMap = new HashMap<>();
             nodeSizeMap = new HashMap<>();
+            cnt = nodes.size();
             sonDadMap.clear();
             nodeSizeMap.clear();
             for (Node node : nodes) {
@@ -62,8 +64,49 @@ public class UnionFind {
                     sonDadMap.put(headB, headA);
                     nodeSizeMap.put(headA, aSize + bSize);
                 }
+                cnt--;
             }
         }
 
+    }
+
+    class UnionFind1 {
+        private int count = 0;
+        private int[] parent, rank;
+        public UnionFind1(int n) {
+            count = n;
+            parent = new int[n];
+            rank = new int[n];
+            for (int i = 0; i < n; i++) {
+                parent[i] = i;
+            }
+        }
+
+        public int find(int p) {
+            while (p != parent[p]) {
+                parent[p] = parent[parent[p]];    // path compression by halving
+                p = parent[p];
+            }
+            return p;
+        }
+
+        public void union(int p, int q) {
+            int rootP = find(p);
+            int rootQ = find(q);
+            if (rootP == rootQ) return;
+            if (rank[rootQ] > rank[rootP]) {
+                parent[rootP] = rootQ;
+            } else {
+                parent[rootQ] = rootP;
+                if (rank[rootP] == rank[rootQ]) {
+                    rank[rootP]++;
+                }
+            }
+            count--;
+        }
+
+        public int count() {
+            return count;
+        }
     }
 }
