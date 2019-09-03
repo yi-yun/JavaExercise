@@ -2,14 +2,13 @@ package exam.vipkid;
 
 import org.junit.Test;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
 
 /**
  * @class: _1
- * @description: TODO
+ * @description: 应该早点想到空格的
  * @author: yi-yun
  * @create: 2019-09-03 16:26
  **/
