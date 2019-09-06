@@ -25,6 +25,7 @@ package com.yiyun.inner;
 public class Outer1 {
     private int age = 99;
     String name = "Coco";
+    double a = 1;
 
     public class Inner {
         private int i = 0;
