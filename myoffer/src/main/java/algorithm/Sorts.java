@@ -3,7 +3,6 @@ package algorithm;
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.function.Consumer;
 
 public class Sorts {
 
