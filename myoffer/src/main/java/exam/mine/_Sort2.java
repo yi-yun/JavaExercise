@@ -30,4 +30,20 @@ public class _Sort2 {
         bubbleSort(a);
         System.out.println(Arrays.toString(a));
     }
+
+    public void insertSort(int[] a) {
+        if (a == null || a.length < 2) {
+            return;
+        }
+        for (int i = 1; i < a.length; i++) {
+            int j = i - 1;
+            int value = a[i];
+            for (; j >= 0; j--) {
+                if (a[j] > value) {
+                    a[j + 1] = a[j];
+                }
+            }
+            a[j + 1] = value;
+        }
+    }
 }

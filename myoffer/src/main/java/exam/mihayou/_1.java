@@ -51,10 +51,16 @@ public class _1 {
                     sb.append(stack.pop());
                 }
                 StringBuilder reverse = sb.reverse();
-                for (int j = 0; j < c - '0'; j++) {
+                int j = i;
+                int temp = 0;
+                while (j < s.length() && s.charAt(j) >= '0' && s.charAt(j) <= '9') {
+                    temp = temp * 10 + s.charAt(j) - '0';
+                    i++;
+                    j++;
+                }
+                for (j = 0; j < temp; j++) {
                     res.append(reverse);
                 }
-                i++;
             }
         }
         String q = res.toString().toLowerCase();
@@ -94,6 +100,6 @@ public class _1 {
 
     @Test
     public void fun() {
-        cal("a-b3");
+        cal("a-b10");
     }
 }
