@@ -29,3 +29,4 @@ java_se/~/
 /out/
 /java_test/.attach_pid*
 /MySingleton.txt
+/myoffer/.attach*
