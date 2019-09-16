@@ -22,7 +22,7 @@ public class _Sort1 {
             for (; j >= 0; j--) {
                 if (a[j] > val) {
                     a[j + 1] = a[j];
-                }else break;
+                } else break;
             }
             a[j + 1] = val;
         }
@@ -65,4 +65,38 @@ public class _Sort1 {
         quickSort(arrays, 0, arrays.length - 1);
         System.out.println(Arrays.toString(arrays));
     }
+
+    @Test
+    public void funMergeSort() {
+        int[] arrays = {6, 2, 4, 7, 5, 9, 1};
+        mergeSort(arrays, 0, arrays.length - 1);
+    }
+
+    public void mergeSort(int[] a, int l, int r) {
+        if (l == r) {
+            return;
+        }
+        int m = (r - l) / 2 + l;
+        mergeSort(a, l, m);
+        mergeSort(a, m + 1, r);
+        merge(a, l, m, r);
+    }
+
+    private void merge(int[] a, int l, int m, int r) {
+        int[] help = new int[r - l + 1];
+        int p1 = l, p2 = m + 1, i = 0;
+        while (p1 <= m && p2 <= r) {
+            help[i++] = a[p1] < a[p2] ? a[p1++] : a[p2++];
+        }
+        while (p1 <= m) {
+            help[i++] = a[p1++];
+        }
+        while (p2 <= r) {
+            help[i++] = a[p2++];
+        }
+        for (int j = 0; j < help.length; j++) {
+            a[j + l] = help[j];
+        }
+    }
+
 }
