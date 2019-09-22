@@ -11,6 +11,20 @@ import java.util.Arrays;
  * @create: 2019-08-09 21:57
  **/
 public class _Sort1 {
+    public void insertSort1(int[] a) {
+        if (a == null || a.length <= 1) {
+            return;
+        }
+        int length = a.length;
+        for (int i = 1; i < length; i++) {
+            int j = i - 1;
+            for (int k = j; k >= 0 && a[k] > a[k + 1]; k--) {
+                // swap a[k+1] a[k]
+            }
+        }
+    }
+
+
     public void insertSort(int[] a) {
         int length = a.length;
         if (length <= 1) {
