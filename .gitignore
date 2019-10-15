@@ -30,3 +30,4 @@ java_se/~/
 /java_test/.attach_pid*
 /MySingleton.txt
 /myoffer/.attach*
+.idea/compiler.xml
